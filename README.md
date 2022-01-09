@@ -3,36 +3,31 @@
 
   Maia's Orchard is a family owned apple farm in Clonmel, Tipperary, Ireland. The business consists of 100 arces farmland, a farm shop, and a campsite. This website is created as the main marketing channel for the business.
 
-  _The business goals of this website are:_
+## User Experience
+### Strategy
+  __The business goals of this website are:__
   - To build an online presence
   - To increase engagement with existing customers and prospects
   - To get more leads
   - To drive more sales
 
-  _The customer goals of this website are:_
+  __The ideal customers of this website are:__
+  - People who want to buy fresh fruit from reliable sources
+  - People, especially parents who want pick-your-own fruit experience for their kids
+  - Families/groups who want a get-away camping holiday
+  - Tourists who look for things to do in the area
+
+  __The customer goals of this website are:__
   - To find out basic info about the business:
     - What products and services they offer
     - What is in season and what not
     - Direction to the farm
     - How to trade, how to make a booking
     - How to contact staff
-  - To understand the business' core values
-  - To seek validation that the products and services are good and worthy 
+  - To understand the business's core values
+  - To seek validation that the products and services are good and worthy
 
-  _The ideal users of this website:_
-  - People who want to buy fresh fruit from reliable sources
-  - People, especially kids, who want pick-your-own fruit experience
-  - Families/groups who want a get-away camping holiday
-  - Tourists who look for things to do in the area
-
-## User Experience
-### Strategy
-Ideal users of this website:
-
-
-These users are looking for:
-
-This project is the best way to achieve their goals because:
+  __This project is the best way to achieve their goals because:__
 
 ### Scope
 
