@@ -29,6 +29,7 @@
 
   __This website is the best way to achieve their goals because it provides:__
   - Business info that the customers can find with ease
+  - Business ethos
   - Testimonials, certificates, awards that the business has achieved
   - Links to events/business activities on social networks
   - Users can easily navigate throughout the site even if they are not a tech savvy
@@ -78,3 +79,6 @@ The live link can be found here
 ### Media
 
 ## Acknowledgements
+
+## Disclaimer
+  Maia's Orchard is a fictional business. This website is created for educational purposes only.
