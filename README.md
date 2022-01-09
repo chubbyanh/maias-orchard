@@ -1,13 +1,29 @@
 # Maia's Orchard
 [View the live project here]()
-one or two paragraphs providing an overview of your project
-what the project hopes to accomplish, who it is intended to target and how it will be useful to the target audience. 
 
-![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+  Maia's Orchard is a family owned apple farm in Clonmel, Tipperary, Ireland. The business consists of 100 arces farmland, a farm shop, and a campsite. This website is created as the main marketing channel for the business.
 
-The business goals of this website are:
+  _The business goals of this website are:_
+  - To build an online presence
+  - To increase engagement with existing customers and prospects
+  - To get more leads
+  - To drive more sales
 
-The customer goals of this website are:
+  _The customer goals of this website are:_
+  - To find out basic info about the business:
+    - What products and services they offer
+    - What is in season and what not
+    - Direction to the farm
+    - How to trade, how to make a booking
+    - How to contact staff
+  - To understand the business' core values
+  - To seek validation that the products and services are good and worthy 
+
+  _The ideal users of this website:_
+  - People who want to buy fresh fruit from reliable sources
+  - People, especially kids, who want pick-your-own fruit experience
+  - Families/groups who want a get-away camping holiday
+  - Tourists who look for things to do in the area
 
 ## User Experience
 ### Strategy
