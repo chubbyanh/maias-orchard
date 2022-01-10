@@ -7,7 +7,7 @@
 ### Strategy
   __The business goals of this website are:__
   - To build an online presence
-  - To increase engagement with existing customers and prospects
+  - To increase engagement with existing customers
   - To get more leads
   - To drive more sales
 
@@ -28,11 +28,11 @@
   - To seek validation that the products and services are good and worthy
 
   __This website is the best way to achieve their goals because it provides:__
-  - Business info that the customers can find with ease
-  - Business ethos
-  - Testimonials, certificates, awards that the business has achieved
+  - A simple navigation system that helps users browse with ease
+  - Information presented with layers through pagination system
+  - Information validated by reliable sources: testimonials, certificates, awards
   - Links to events/business activities on social networks
-  - Users can easily navigate throughout the site even if they are not a tech savvy
+  - Immediate interaction with the business within 1 step
 
 ### Scope
 
