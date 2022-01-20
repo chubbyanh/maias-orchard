@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+* {
+    font-family: Raleway;
+}
+
+html {
+    background-color: #FFEBCD;
+}
+
+/* Using Color scheme to generate colors 
+https://www.w3schools.com/colors/colors_triadic.asp
+heading text color #FF2432
+background color #FFFDE5
+normal text color #000000
+
+*/
