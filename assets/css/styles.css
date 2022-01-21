@@ -1,6 +1,6 @@
 /* top banner */
 .top-banner {
-  background-color: rgba(199, 8, 21, 0.986);
+  background-color: #d34836;
   color: white;
   height: 35px;
   text-align: center;
@@ -30,7 +30,7 @@ nav {
 }
 /* welcome section */
 .welcome span h2 {
-  color: rgba(199, 8, 21, 0.986);
+  color: #d34836;
   size: 280%;
 }
 
@@ -58,7 +58,7 @@ nav {
   border-radius: 0;
 }
 .btn-red {
-  background-color: rgba(199, 8, 21, 0.986);
+  background-color: #d34836;
   color: white;
 }
 .btn-red:hover {
@@ -84,9 +84,9 @@ nav {
 /* footer */
 
 footer {
+  background-color: #d34836;
   color: white;
   text-align: center;
-  height: 35px;
 }
 input {
   border: 2px solid white;
@@ -98,4 +98,22 @@ input {
 
 footer a {
   color: white;
+}
+
+footer a:hover {
+  color: pink;
+}
+
+/* google map with marker */
+.mapouter {
+  position: relative;
+  text-align: center;
+  height: 500px;
+  width: 600px;
+}
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 500px;
+  width: 600px;
 }
