@@ -12,6 +12,11 @@
   color: #000000;
 }
 
+.social-networks li a {
+  list-style: none;
+  color: black;
+}
+/* Style contact area */
 .contact-area {
   background-color: #000000;
   color: white;
