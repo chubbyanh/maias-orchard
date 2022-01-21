@@ -1,3 +1,17 @@
+/* Style welcome section */
+.welcome {
+  background-color: inherit;
+}
+
+.welcome h2 {
+  text-transform: uppercase;
+  color: #FF2432;
+}
+
+.welcome p {
+  color: #000000;
+}
+
 .contact-area {
   background-color: #000000;
   color: white;
