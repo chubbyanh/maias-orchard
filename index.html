@@ -26,25 +26,6 @@
 
    <!-- Custom styles for this template -->
    <link href="assets/css/styles.css" rel="stylesheet">
-
-   <!-- Google maps -->
-   <script>
-      function initMap() {
-         const uluru = {
-            lat: -25.344,
-            lng: 131.036
-         };
-         const map = new google.maps.Map(document.getElementById("map"), {
-            zoom: 4,
-            center: uluru,
-         });
-         const marker = new google.maps.Marker({
-            position: uluru,
-            map: map,
-         });
-      }
-   </script>
-
 </head>
 
 <body>
@@ -122,7 +103,6 @@
       <!-- /. welcome -->
 
       <!-- Carousel-->
-
       <section>
          <div id="myCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
             <div class="carousel-inner">
@@ -169,6 +149,71 @@
       <!-- /. about -->
 
       <!-- Activities -->
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+         <div class="col-md-7">
+            <h2 class="featurette-heading">Pick Your Own<span class="text-muted">It’ll blow your
+                  mind.</span>
+            </h2>
+            <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting
+               prose
+               here.</p>
+         </div>
+         <div class="col-md-5">
+            <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+               height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
+               preserveAspectRatio="xMidYMid slice" focusable="false">
+               <title>Placeholder</title>
+               <rect width="100%" height="100%" fill="#eee" /><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>
+            </svg>
+
+         </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+         <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading">Caravan & Camping<span class="text-muted">See for
+                  yourself.</span></h2>
+            <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of
+               how this
+               layout would work with some actual real-world content in place.</p>
+         </div>
+         <div class="col-md-5 order-md-1">
+            <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+               height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
+               preserveAspectRatio="xMidYMid slice" focusable="false">
+               <title>Placeholder</title>
+               <rect width="100%" height="100%" fill="#eee" /><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>
+            </svg>
+
+         </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+         <div class="col-md-7">
+            <h2 class="featurette-heading">Farm Shop <span class="text-muted">Checkmate.</span></h2>
+            <p class="lead">And yes, this is the last block of representative placeholder content. Again, not
+               really
+               intended to be actually read, simply here to give you a better view of what this would look like
+               with some
+               actual content. Your content.</p>
+         </div>
+         <div class="col-md-5">
+            <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+               height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
+               preserveAspectRatio="xMidYMid slice" focusable="false">
+               <title>Placeholder</title>
+               <rect width="100%" height="100%" fill="#eee" /><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>
+            </svg>
+
+         </div>
+      </div>
+
       <div>
          <span>
             <h2>What's Going On at Maia's Orchard</h2>
@@ -215,6 +260,44 @@
       <!-- /. activities -->
 
       <!-- Gallery -->
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+         <div class="col-md-7">
+            <h2 id="gallery" class="featurette-heading">Gallery<span class="text-muted"> of your life.</span>
+            </h2>
+            <p class="lead">And yes, this is the last block of representative placeholder content. Again, not
+               really
+               intended to be actually read, simply here to give you a better view of what this would look like
+               with some
+               actual content. Your content.</p>
+         </div>
+         <div class="col-md-12">
+            <div class="grid imglist">
+               <div class="row padding-bottom--sm">
+                  <a href="#" class="col col--4" data-fancybox="demo" data-src="https://lipsum.app/id/1/1024x768"
+                     data-caption="<b>Hello, There!</b> <br /> This is a multi-line caption">
+                     <img src="https://lipsum.app/id/1/400x300">
+                  </a>
+                  <a href="#" class="col col--4" data-fancybox="demo" data-src="https://lipsum.app/id/2/1024x768"
+                     data-caption="Optional caption">
+                     <img src="https://lipsum.app/id/2/400x300">
+                  </a>
+                  <a href="#" class="col col--4" data-fancybox="demo" data-src="https://lipsum.app/id/5/1024x768">
+                     <img src="https://lipsum.app/id/5/400x300"></a></div>
+               <div class="row">
+                  <a href="#" class="col col--6" data-fancybox="demo" data-src="https://lipsum.app/id/3/1024x512">
+                     <img src="https://lipsum.app/id/3/500x250">
+                  </a>
+                  <a href="#" class="col col--6" data-fancybox="demo" data-src="https://lipsum.app/id/4/1024x512">
+                     <img src="https://lipsum.app/id/4/500x250">
+                  </a>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <hr class="featurette-divider">
       <hr class="featurette-divider">
       <section>
          <h2>Follow Us <span>#Maia's Orchard</span></h2>
@@ -268,7 +351,7 @@
                            placeholder="Enter your message" required></textarea>
                      </div>
                      <div class="col-12">
-                        <button type="submit" class="btn btn-red">Submit</button>
+                        <button type="submit" class="btn btn-red" id="btn-contact">Submit</button>
                      </div>
                   </form>
                </div>
@@ -276,24 +359,24 @@
          </div>
       </section>
       <!-- /. contact area -->
-
-      <!-- Footer -->
-      <!-- maps with marker https://developers.google.com/maps/documentation/javascript/adding-a-google-map -->
-      <footer class="container-fluid bg-red">
-         <div class="mapouter">
-            <div class="gmap_canvas">
-               <iframe width="600" height="500" id="gmap_canvas"
-                  src="https://maps.google.com/maps?q=Prior%20Park,%20Clonmel&t=&z=13&ie=UTF8&iwloc=&output=embed"
-                  frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
-               </iframe>
-            </div>
-         </div>
-         <!-- copyright -->
-         <p class="float-end"><a href="#">Back to top</a></p>
-         <p>&copy; 2022 by Maia's Orchard. For education purposes only.</p>
-      </footer>
-      <!-- /. footer -->
    </main>
+
+   <!-- Footer -->
+   <!-- maps with marker https://developers.google.com/maps/documentation/javascript/adding-a-google-map -->
+   <footer class="container-fluid bg-red">
+      <div class="mapouter">
+         <div class="gmap_canvas">
+            <iframe width="100%" height="500" id="gmap_canvas"
+               src="https://maps.google.com/maps?q=Prior%20Park,%20Clonmel&t=&z=13&ie=UTF8&iwloc=&output=embed"
+               frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+            </iframe>
+         </div>
+      </div>
+      <!-- copyright -->
+      <p class="float-end"><a href="#">Back to top</a></p>
+      <p>&copy; 2022 by Maia's Orchard. <span>For education purposes only.</span></p>
+   </footer>
+   <!-- /. footer -->
 
    <!-- font awsome script -->
    <script src="https://kit.fontawesome.com/525b56f81e.js" crossorigin="anonymous">
