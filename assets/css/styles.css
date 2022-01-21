@@ -16,6 +16,10 @@
   list-style: none;
   color: black;
 }
+/* Style carousel */
+.wrapper {
+  background-color: blueviolet;
+}
 /* Style contact area */
 .contact-area {
   background-color: #000000;
