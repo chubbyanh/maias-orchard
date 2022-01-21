@@ -58,7 +58,12 @@ nav {
   background-color: #000000;
   color: white;
 }
-
+.social-links a {
+  color: white;
+}
+.social-links a:hover {
+  color: pink;
+}
 /* buttons */
 .btn {
   border-radius: 0;
