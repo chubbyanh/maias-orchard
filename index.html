@@ -22,12 +22,25 @@
    <link href="assets/css/carousel.css" rel="stylesheet">
 
    <!-- Custom styles for this template -->
+   <link href="assets/css/background_styles.css" rel="stylesheet">
+
+   <!-- Custom styles for this template -->
    <link href="assets/css/styles.css" rel="stylesheet">
 </head>
 
 <body>
-   <!-- Navigation bar -->
    <header>
+      <!-- Top banner -->
+      <div class="top-banner bg-red fixed-top">
+         <p>
+            <span id="banner-icon"><i class="fas fa-exclamation-circle"></i></span>
+            <span><strong>restrictions in place:</strong></span> Please read our new policies before you visit.
+            <a href="#" target="_blank" rel="noopener">More details</a>
+         </p>
+      </div>
+      <!-- /. top banner -->
+
+      <!-- Navigation bar -->
       <nav class="navbar navbar-expand-md navbar-light">
          <div class="container-fluid">
             <a class="navbar-brand" href="#">Maia's Orchard</a>
@@ -58,152 +71,206 @@
 
    <main>
       <!-- Welcome -->
-      <section class="welcome">
-         <h2>Pick Your Own Fruit</h2>
-         <p>Welcome to Maia's Orchard. Reservations Now Open</p>
-         <ul class="social-networks">
-            <li>
-               <a href="https://facebook.com" target="_blank" rel="noopener"
-                  aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook-f"></i></a>
-            </li>
-            <li>
-               <a href="https://instagram.com" target="_blank" rel="noopener"
-                  aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
-            </li>
-            <li>
-               <a href="https://www.yelp.ie/" target="_blank" rel="noopener"
-                  aria-label="Visit our Yelp page (opens in a new tab)"><i class="fab fa-yelp"></i></a>
-            </li>
-
-         </ul>
-         <button class="btn btn-red">Book Your Visit</button>
+      <hr class="featurette-divider">
+      <section>
+         <div class="welcome">
+            <span>
+               <h2>Pick Your Own Fruit</h2>
+            </span>
+            <div>
+               <p>Welcome to Maia's Orchard.</p>
+               <p>Reservations Now Open</p>
+            </div>
+            <div>
+               <ul class="social-networks">
+                  <li>
+                     <a href="https://facebook.com" target="_blank" rel="noopener"
+                        aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook-f"></i></a>
+                  </li>
+                  <li>
+                     <a href="https://instagram.com" target="_blank" rel="noopener"
+                        aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
+                  </li>
+                  <li>
+                     <a href="https://www.yelp.ie/" target="_blank" rel="noopener"
+                        aria-label="Visit our Yelp page (opens in a new tab)"><i class="fab fa-yelp"></i></a>
+                  </li>
+               </ul>
+               <button class="btn btn-red">Book Your Visit</button>
+            </div>
+         </div>
       </section>
       <!-- /. welcome -->
 
       <!-- Carousel-->
-      <div class="w3-content w3-display-container">
-         <img class="mySlides" src="img_nature.jpg">
-         <img class="mySlides" src="img_snowtops.jpg">
-         <img class="mySlides" src="img_mountains.jpg">
-         <div class="w3-center w3-display-bottommiddle" style="width:100%">
-           <div class="w3-left" onclick="plusDivs(-1)">&#10094;</div>
-           <div class="w3-right" onclick="plusDivs(1)">&#10095;</div>
-           <span class="w3-badge demo w3-border" onclick="currentDiv(1)"></span>
-           <span class="w3-badge demo w3-border" onclick="currentDiv(2)"></span>
-           <span class="w3-badge demo w3-border" onclick="currentDiv(3)"></span>
+      
+      <section>
+         <div id="myCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+               <div class="carousel-item active">
+                  <img class="d-block w-100" src="assets/images/strawberries/raspberries-2023404.jpg"
+                     alt="blah blah blah">
+               </div>
+               <div class="carousel-item">
+                  <img class="d-block w-100" src="assets/images/camping/strawberry-2667496.jpg" alt="blah blah blah">
+               </div>
+               <div class="carousel-item">
+                  <img class="d-block w-100"
+                     src="assets/images/apples/pikwizard-smiling-female-staff-holding-a-basket-of-green-apple-at-supermarket.jpeg"
+                     alt="blah blah blah">
+               </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+               <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+               <span class="carousel-control-next-icon" aria-hidden="true"></span>
+               <span class="visually-hidden">Next</span>
+            </button>
          </div>
-       </div>
+      </section>
       <!-- /. carousel -->
 
       <!-- About -->
       <hr class="featurette-divider">
       <section>
-         <h2>About Our Farm</h2>
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus ipsum adipisci veniam earum deserunt
-            quo maxime consequatur, animi fuga tempore! Repellat delectus natus earum quasi accusamus rem, dolore
-            cupiditate hic.</p>
+         <div>
+            <span>
+               <h2>About Our Farm</h2>
+            </span>
+            <span>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus ipsum adipisci veniam earum
+                  deserunt
+                  quo maxime consequatur, animi fuga tempore! Repellat delectus natus earum quasi accusamus rem, dolore
+                  cupiditate hic.</p>
+            </span>
+         </div>
       </section>
       <!-- /. about -->
 
-      <!-- Quotes Section -->
-      <section>
-         <h2>What's Going On at Maia's Orchard</h2>
-         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, ipsa pariatur! Ipsa aut odio,
-            repudiandae vero mollitia voluptatibus, saepe adipisci nihil perspiciatis fuga autem iste deleniti ut. Amet,
-            fugiat fugit!</p>
-      </section>
-      <!-- /. quotes -->
-
       <!-- Activities -->
-      <section>
+      <div>
+         <span>
+            <h2>What's Going On at Maia's Orchard</h2>
+         </span>
+
+         <span>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, ipsa pariatur! Ipsa aut odio,
+               repudiandae vero mollitia voluptatibus, saepe adipisci nihil perspiciatis fuga autem iste deleniti ut.
+               Amet,
+               fugiat fugit!</p>
+         </span>
+
+      </div>
+      <div>
          <h3>Pick Your Own</h3>
          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat distinctio id consequuntur repellat
-            dolorum voluptates accusamus amet itaque inventore sit labore, ratione temporibus ipsa ipsam recusandae eius
+            dolorum voluptates accusamus amet itaque inventore sit labore, ratione temporibus ipsa ipsam recusandae
+            eius
             nisi. A, sapiente?</p>
          <button class="btn btn-black">Book Now</button>
+      </div>
 
+      <div>
          <h3>Camping</h3>
          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat distinctio id consequuntur repellat
-            dolorum voluptates accusamus amet itaque inventore sit labore, ratione temporibus ipsa ipsam recusandae eius
+            dolorum voluptates accusamus amet itaque inventore sit labore, ratione temporibus ipsa ipsam recusandae
+            eius
             nisi. A, sapiente?</p>
          <button class="btn btn-black">Book Now</button>
+      </div>
 
-         <h3>Farm Shop</h3>
-         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat distinctio id consequuntur repellat
-            dolorum voluptates accusamus amet itaque inventore sit labore, ratione temporibus ipsa ipsam recusandae eius
-            nisi. A, sapiente?</p>
-         <button class="btn btn-black">Book Now</button>
+      <div>
+         <span>
+            <h3>Farm Shop</h3>
+         </span>
+         <span>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat distinctio id consequuntur repellat
+               dolorum voluptates accusamus amet itaque inventore sit labore, ratione temporibus ipsa ipsam
+               recusandae eius
+               nisi. A, sapiente?</p>
+         </span>
+      </div>
       </section>
       <!-- /. activities -->
 
       <!-- Gallery -->
+      <hr class="featurette-divider">
       <section>
          <h2>Follow Us <span>#Maia's Orchard</span></h2>
       </section>
+      </div>
+      </section>
+      <!-- /. gallery -->
 
       <!-- Contact Area -->
       <hr class="featurette-divider">
-      <div class="contact-area">
-         <div>Maia's Orchard</div>
-         <hr class="divider-white">
+      <section>
+         <div class="contact-area">
+            <div>Maia's Orchard</div>
+            <hr class="divider-white">
 
-         <p>Address</p>
-         <p>500 Cashel Road</p>
-         <p>Clonmel, Co. Tipperary</p>
-         <p>info@maias.com</p>
-         <p>123-456-7890</p>
-         <p>Opening Hours</p>
-         <p>Weekdays</p>
-         <p>9:00 am – 5:00 pm</p>
-         <p>Weekends</p>
-         <p>10:00 am - 3:00 pm</p>
-         <button class="btn btn-white">Book Your Visit</button>
-         <p>Social</p>
-         <p>Facebook</p>
-         <p>Instagram</p>
-         <p>Yelp</p>
+            <p>Address</p>
+            <p>500 Cashel Road</p>
+            <p>Clonmel, Co. Tipperary</p>
+            <p>info@maias.com</p>
+            <p>123-456-7890</p>
+            <p>Opening Hours</p>
+            <p>Weekdays</p>
+            <p>9:00 am – 5:00 pm</p>
+            <p>Weekends</p>
+            <p>10:00 am - 3:00 pm</p>
+            <button class="btn btn-white">Book Your Visit</button>
+            <p>Social</p>
+            <p>Facebook</p>
+            <p>Instagram</p>
+            <p>Yelp</p>
 
-         <div class="row featurette">
-            <div class="col-md-7">
-               <h2 id="contact-us" class="featurette-heading">Contact Us</h2>
-            </div>
-            <div class="col-md-12">
-               <form class="row g-3" action="https://formdump.codeinstitute.net/" method="post" target="_blank">
-                  <div class="col-12">
-                     <label for="inputName" class="form-label">Name</label>
-                     <input type="text" name="inputName" class="form-control" id="inputAddress" placeholder="Anh Vu"
-                        required>
-                  </div>
-                  <div class="col-12">
-                     <label for="inputEmail" class="form-label">Email</label>
-                     <input type="email" name="inputEmail" class="form-control" id="inputEmail"
-                        placeholder="anh.v@gmail.com" required>
-                  </div>
-                  <div class="col-12">
-                     <label for="inputMessage" class="form-label">Message</label>
-                     <textarea name="inputMessage" class="form-control" id="inputMessage" rows="3"
-                        placeholder="Enter your message" required></textarea>
-                  </div>
-                  <div class="col-12">
-                     <button type="submit" class="btn btn-red">Submit</button>
-                  </div>
-               </form>
+            <div class="row featurette">
+               <div class="col-md-7">
+                  <h2 id="contact-us" class="featurette-heading">Contact Us</h2>
+               </div>
+               <div class="col-md-12">
+                  <form class="row g-3" action="https://formdump.codeinstitute.net/" method="post" target="_blank">
+                     <div class="col-12">
+                        <label for="inputName" class="form-label">Name</label>
+                        <input type="text" name="inputName" class="form-control" id="inputAddress" placeholder="Anh Vu"
+                           required>
+                     </div>
+                     <div class="col-12">
+                        <label for="inputEmail" class="form-label">Email</label>
+                        <input type="email" name="inputEmail" class="form-control" id="inputEmail"
+                           placeholder="anh.v@gmail.com" required>
+                     </div>
+                     <div class="col-12">
+                        <label for="inputMessage" class="form-label">Message</label>
+                        <textarea name="inputMessage" class="form-control" id="inputMessage" rows="3"
+                           placeholder="Enter your message" required></textarea>
+                     </div>
+                     <div class="col-12">
+                        <button type="submit" class="btn btn-red">Submit</button>
+                     </div>
+                  </form>
+               </div>
             </div>
          </div>
-      </div>
+      </section>
       <!-- /. contact area -->
 
       <!-- Footer -->
-      <footer class="container-fluid">
+      <footer class="container-fluid bg-red">
          <p class="float-end"><a href="#">Back to top</a></p>
          <p>&copy; 2022 by Maia's Orchard. For education purposes only.</p>
       </footer>
       <!-- /. footer -->
    </main>
 
-   <!-- font awesome script -->
+   <!-- scripts -->
    <script src="https://kit.fontawesome.com/525b56f81e.js" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+   </script>
+   <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
 </body>
-</body>
-
 </html>

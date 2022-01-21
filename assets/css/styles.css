@@ -1,11 +1,37 @@
-/* Style welcome section */
-.welcome {
-  background-color: inherit;
+/* top banner */
+.top-banner {
+  background-color: rgba(199, 8, 21, 0.986);
+  color: white;
+  height: 35px;
+  text-align: center;
+  width: 100%;
+  margin: auto;
+}
+.top-banner span {
+  text-transform: uppercase;
+}
+.top-banner a {
+  color: white;
 }
 
-.welcome h2 {
+/* logo and headings */
+h2 {
   text-transform: uppercase;
-  color: #FF2432;
+  color: white;
+}
+
+body {
+  background-color: #FFFDE5;
+}
+/* navbar */
+nav {
+  height: 64px;
+  padding-top: 4rem;
+}
+/* welcome section */
+.welcome span h2 {
+  color: rgba(199, 8, 21, 0.986);
+  size: 280%;
 }
 
 .welcome p {
@@ -16,19 +42,23 @@
   list-style: none;
   color: black;
 }
-/* Style carousel */
-.wrapper {
-  background-color: blueviolet;
-}
-/* Style contact area */
+/* carousel */
+
+/* contact area */
 .contact-area {
   background-color: #000000;
   color: white;
 }
+.col-12 input, .col-12 textarea {
+  border-radius: 0;
+}
 
-/* Style buttons */
+/* buttons */
+.btn {
+  border-radius: 0;
+}
 .btn-red {
-  background-color: #FF2432;
+  background-color: rgba(199, 8, 21, 0.986);
   color: white;
 }
 .btn-red:hover {
@@ -44,18 +74,28 @@
   color: white;
   border: 2px solid white;
 }
-
-/* Style footer */
+.btn-black {
+  background-color: #000000;
+  color: white;
+}
+.btn-black:hover {
+  color: pink;
+}
+/* footer */
 
 footer {
-  background-color: #FF2432;
   color: white;
   text-align: center;
+  height: 35px;
 }
 input {
   border: 2px solid white;
   background-color: #000000;
 }
 .divider-white {
+  color: white;
+}
+
+footer a {
   color: white;
 }
