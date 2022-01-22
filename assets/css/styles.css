@@ -1,114 +1,29 @@
+/* GENERAL STYLING */
 * {
   margin: 0;
   padding: 0;
-}
-/* top banner */
-.top-banner {
-  background-color: #d34836;
-  color: white;
-  height: 35px;
-  text-align: center;
-  width: 100%;
-  margin: auto;
-}
-.top-banner span {
-  text-transform: uppercase;
-}
-.top-banner a {
-  color: white;
-}
-
-/* logo and headings */
-h2 {
-  text-transform: uppercase;
-  color: white;
+  box-sizing: border-box;
 }
 
 body {
   background-color: #FFFDE5;
 }
-/* navbar */
-nav {
-  height: 64px;
-  padding-top: 4rem;
-}
-/* welcome section */
-.welcome span h2 {
-  color: #d34836;
-  size: 280%;
-}
 
-.welcome p {
-  color: #000000;
-}
-
-.social-networks li a {
-  list-style: none;
-  color: black;
-}
-/* carousel */
-
-/* contact area */
-.contact-area {
-  background-color: #000000;
+/* LINKS */
+.top-banner a {
   color: white;
 }
-.col-12 input, .col-12 textarea {
-  border-radius: 0;
-  background-color: #000000;
-  color: white;
+
+.top-banner a:hover {
+  color: pink;
 }
+
 .social-links a {
   color: white;
 }
+
 .social-links a:hover {
   color: pink;
-}
-/* buttons */
-.btn {
-  border-radius: 0;
-}
-.btn-red {
-  background-color: #d34836;
-  color: white;
-}
-.btn-red:hover {
-  background-color: white;
-  color: #000000;
-}
-.btn-white {
-  background-color: white;
-  color: #000000;
-}
-.btn-white:hover {
-  background-color: #000000;
-  color: white;
-  border: 2px solid white;
-}
-.btn-black {
-  background-color: #000000;
-  color: white;
-}
-.btn-black:hover {
-  color: pink;
-}
-#btn-contact {
-  width: 100%;
-  border: 2px solid white;
-}
-/* footer */
-
-footer {
-  background-color: #d34836;
-  color: white;
-  text-align: center;
-}
-input {
-  border: 2px solid white;
-  background-color: #000000;
-}
-.divider-white {
-  color: white;
 }
 
 footer a {
@@ -119,19 +34,149 @@ footer a:hover {
   color: pink;
 }
 
-/* google map with marker */
-/*.mapouter {
-  position: relative;
+/* BUTTONS */
+.btn {
+  border-radius: 0;
+}
+
+.btn-red {
+  background-color: #d34836;
+  color: white;
+}
+
+.btn-red:hover {
+  background-color: white;
+  color: #000000;
+}
+
+.btn-white {
+  background-color: white;
+  color: #000000;
+}
+
+.btn-white:hover {
+  background-color: #000000;
+  color: white;
+  border: 2px solid white;
+}
+
+.btn-black {
+  background-color: #000000;
+  color: white;
+}
+
+.btn-black:hover {
+  color: pink;
+}
+
+#btn-contact {
+  width: 100%;
+  border: 2px solid white;
+}
+
+/* TOP BANNER */
+.top-banner {
+  background-color: #d34836;
+  color: white;
+  height: 35px;
   text-align: center;
+  width: 100%;
+  margin: auto;
+  padding-top: 5px;
+}
+
+.top-banner span {
+  text-transform: uppercase;
+}
+
+/* LOGO AND HEADINGS */
+h2 {
+  text-transform: uppercase;
+  color: white;
+}
+
+/* NAVBAR */
+nav {
+  height: 64px;
+  padding-top: 4rem;
+}
+
+/* WELCOME SECTION */
+.welcome span h2 {
+  color: #d34836;
+  size: 280%;
+}
+
+.welcome p {
+  color: #000000;
+}
+.welcome-right {
+  display: inline;
+  float: right;
+}
+
+.social-icons > li {
+  display: inline;
+}
+
+.social-icons i {
+  font-size: 120%;
+  margin: 1%;
+  padding: 5%;
+  color: #000000;
+}
+
+/* CAROUSEL */
+
+/* CONTACT AREA */
+.contact-area {
+  background-color: #000000;
+  color: white;
+}
+
+.col-12 input,
+.col-12 textarea {
+  border-radius: 0;
+  background-color: #000000;
+  color: white;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: #d34836;
+  color: white;
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  padding-bottom: 50px;
+}
+
+footer p {
+  padding-top: 20px;
+}
+
+input {
+  border: 2px solid white;
+  background-color: #000000;
+}
+
+.divider-white {
+  color: white;
+}
+
+/* GOOGLE MAP */
+.mapouter {
+  position: relative;
+  text-align: right;
   height: 500px;
   width: 100%;
-}*/
+}
+
 .gmap_canvas {
   overflow: hidden;
   background: none !important;
   height: 500px;
   width: 100%;
-  padding-top: 60px;
-  padding-left: 60px;
-  padding-right: 60px;
+  padding: 60px;
 }
