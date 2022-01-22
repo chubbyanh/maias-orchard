@@ -1,4 +1,4 @@
-/* GENERAL STYLING */
+/* // GENERAL STYLING // */
 * {
   margin: 0;
   padding: 0;
@@ -8,13 +8,13 @@ body {
   background-color: #FFFDE5;
 }
 
-/* LINKS */
+/* // LINKS // */
 .top-banner a {
-  color: white;
+  color: #d34836;
 }
 
 .top-banner a:hover {
-  color: pink;
+  background-color: beige;
 }
 
 .social-links a {
@@ -33,7 +33,7 @@ footer a:hover {
   color: pink;
 }
 
-/* BUTTONS */
+/* // BUTTONS // */
 .btn {
   border-radius: 0;
 }
@@ -68,21 +68,26 @@ footer a:hover {
   color: pink;
 }
 
-#btn-contact {
-  width: 100%;
-  border: 2px solid white;
-}
-
 #btn-welcome:hover {
   background-color: #FFFDE5;
   color: #d34836;
   border: 1px solid #d34836;
 }
 
-/* TOP BANNER */
+#btn-contact {
+  width: 100%;
+  border: 2px solid white;
+}
+
+/* // DIVIDERS // */
+.white-divider {
+  border: 1px solid white;
+}
+
+/* // TOP BANNER // */
 .top-banner {
-  background-color: #d34836;
-  color: white;
+  background-color: #FFFDE5;
+  color: #d34836;
   height: 35px;
   text-align: center;
   width: 100%;
@@ -94,19 +99,19 @@ footer a:hover {
   text-transform: uppercase;
 }
 
-/* LOGO AND HEADINGS */
+/* // LOGO AND HEADINGS // */
 h2 {
   text-transform: uppercase;
   color: white;
 }
 
-/* NAVBAR */
-nav {
-  height: 64px;
-  padding-top: 4rem;
+/* // NAVBAR // */
+.navbar {
+  padding-top: 5px;
+  color: white;
 }
 
-/* WELCOME SECTION */
+/* // WELCOME SECTION // */
 .welcome-container {
   width: 90%;
   margin: auto;
@@ -133,18 +138,55 @@ nav {
   color: #000000;
 }
 
-/* CAROUSEL */
+#myCarousel {
+  width:100%;
+  display: block;
+}
 
-/* CONTACT AREA */
+/* // CAROUSEL // */
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 40rem;
+
+}
+
+.carousel-item > img {
+  position: absolute;
+  width: 90%;
+  height: auto;
+  margin: auto;
+  left: 5%
+}
+
+/* // GALLERY // */
+#gallery {
+  color: #d34836;
+  text-align: center;
+}
+
+/* // CONTACT AREA // */
 .contact-area {
   background-color: #000000;
   color: white;
 }
 
-.divider-white {
-  color: white;
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 60px;
 }
 
+.contact-right {
+  flex-shrink: 4;
+}
+
+/* contact form */
 .col-12 input,
 .col-12 textarea {
   border-radius: 0;
@@ -156,7 +198,6 @@ input {
   border: 2px solid white;
   background-color: #000000;
 }
-
 
 /* FOOTER */
 
@@ -177,7 +218,7 @@ footer p {
   padding-right: 60px;
 }
 
-/* GOOGLE MAP */
+/* google map */
 .mapouter {
   position: relative;
   text-align: right;
@@ -192,3 +233,9 @@ footer p {
   width: 100%;
   padding: 60px;
 }
+
+/* .carousel-item {
+  width: 1718px;
+  height: 640px;
+  object-fit: contain;
+} */
