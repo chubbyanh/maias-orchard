@@ -134,7 +134,9 @@
                   deserunt
                   quo maxime consequatur, animi fuga tempore! Repellat delectus natus earum quasi accusamus rem, dolore
                   cupiditate hic.
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque laborum quisquam veritatis architecto sunt cumque nostrum optio natus animi expedita sequi, molestias ad voluptas odio error, amet minus eveniet sint!
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque laborum quisquam veritatis architecto
+                  sunt cumque nostrum optio natus animi expedita sequi, molestias ad voluptas odio error, amet minus
+                  eveniet sint!
                </p>
             </span>
          </div>
@@ -210,7 +212,7 @@
       <!-- Gallery -->
       <section id="gallery">
          <div class="row featurette">
-            <div class="col-md-7">
+            <div class="col-md-12">
                <h2 class="featurette-heading">Follow Us #Maia's Orchard</h2>
             </div>
             <div class="col-md-12">
@@ -219,13 +221,15 @@
                      <a href="#" class="col col--4" data-fancybox="demo" data-src="assets/images/summer-berries.jpeg">
                         <img class="gallery-img" src="assets/images/summer-berries.jpeg">
                      </a>
-                     <a href="#" class="col col--4" data-fancybox="demo" data-src="assets/images/woman-buying-vegetables.jpeg">
+                     <a href="#" class="col col--4" data-fancybox="demo"
+                        data-src="assets/images/woman-buying-vegetables.jpeg">
                         <img class="gallery-img" src="assets/images/woman-buying-vegetables.jpeg">
                      </a>
                      <a href="#" class="col col--4" data-fancybox="demo" data-src="assets/images/apples-on-hands.jpeg">
                         <img class="gallery-img" src="assets/images/apples-on-hands.jpeg">
                      </a>
-                     <a href="#" class="col col--4" data-fancybox="demo" data-src="assets/images/staff-selling-apples.jpeg">
+                     <a href="#" class="col col--4" data-fancybox="demo"
+                        data-src="assets/images/staff-selling-apples.jpeg">
                         <img class="gallery-img" src="assets/images/staff-selling-apples.jpeg">
                      </a>
                      <a href="#" class="col col--4" data-fancybox="demo" data-src="assets/images/berries.jpeg">
@@ -278,25 +282,25 @@
                      <div class="col-md-7">
                         <h2 id="contact-us" class="featurette-heading">Contact Us</h2>
                      </div>
-                     <div class="col-md-12">
+                     <div class="col-md-7">
                         <form class="row g-3" action="https://formdump.codeinstitute.net/" method="post"
                            target="_blank">
-                           <div class="col-12">
+                           <div class="col-7">
                               <label for="inputName" class="form-label">Name</label>
                               <input type="text" name="inputName" class="form-control" id="inputAddress"
                                  placeholder="Anh Vu" required>
                            </div>
-                           <div class="col-12">
+                           <div class="col-7">
                               <label for="inputEmail" class="form-label">Email</label>
                               <input type="email" name="inputEmail" class="form-control" id="inputEmail"
                                  placeholder="anh.v@gmail.com" required>
                            </div>
-                           <div class="col-12">
+                           <div class="col-7">
                               <label for="inputMessage" class="form-label">Message</label>
                               <textarea name="inputMessage" class="form-control" id="inputMessage" rows="3"
                                  placeholder="Enter your message" required></textarea>
                            </div>
-                           <div class="col-12">
+                           <div class="col-7">
                               <button type="submit" class="btn btn-red" id="btn-contact">Submit</button>
                            </div>
                         </form>
@@ -341,6 +345,20 @@
 
    <!-- google maps script -->
    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&libraries=&v=weekly" async>
+   </script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+   <!-- javascript from https://stackoverflow.com/questions/54164397/bootstrap-4-how-to-make-fixed-top-navbar-disappear-on-scroll/54164631 -->
+   <script>
+      // scroll functions
+      $(window).scroll(function (e) {
+         // add/remove class to navbar when scrolling to hide/show
+         var scroll = $(window).scrollTop();
+         if (scroll >= 150) {
+            $('.top-banner').addClass("topbanner-hide");
+         } else {
+            $('.top-banner').removeClass("topbanner-hide");
+         }
+      });
    </script>
 
 </body>

@@ -85,6 +85,14 @@ footer a:hover {
 .top-banner span {
   text-transform: uppercase;
 }
+/* top banner disappears when scroll down */
+.top-banner {
+  transition: top 0.5s ease;
+}
+
+.topbanner-hide {
+  display: none;
+}
 
 /* // LOGO AND HEADINGS // */
 h2 {
@@ -160,7 +168,7 @@ h2 {
   text-align: center;
 }
 
-#gallery > h2 {
+#gallery h2 {
   text-align: center;
 }
 
@@ -188,13 +196,9 @@ h2 {
   padding: 60px;
 }
 
-.contact-right {
-  flex-shrink: 4;
-}
-
 /* contact form */
-.col-12 input,
-.col-12 textarea {
+.col-7 input,
+.col-7 textarea {
   border-radius: 0;
   background-color: #000000;
   color: white;
@@ -239,3 +243,4 @@ footer p {
   width: 100%;
   padding: 60px;
 }
+
