@@ -55,15 +55,6 @@ footer a:hover {
   border: 2px solid white;
 }
 
-.btn-black {
-  background-color: #000000;
-  color: white;
-}
-
-.btn-black:hover {
-  color: pink;
-}
-
 #btn-welcome:hover {
   background-color: #FFFDE5;
   color: #d34836;
@@ -137,15 +128,16 @@ h2 {
   color: #000000;
 }
 
-#myCarousel {
-  width:100%;
-  display: block;
-}
-
 /* // CAROUSEL // */
+
 /* Carousel base class */
 .carousel {
   margin-bottom: 4rem;
+}
+
+#myCarousel {
+  width:100%;
+  display: block;
 }
 
 /* Declare heights because of positioning of img element */
@@ -247,9 +239,3 @@ footer p {
   width: 100%;
   padding: 60px;
 }
-
-/* .carousel-item {
-  width: 1718px;
-  height: 640px;
-  object-fit: contain;
-} */
