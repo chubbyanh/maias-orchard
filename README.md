@@ -39,17 +39,22 @@
 ### Structure
 
 ### Skeleton
+  - Wireframes
 
 ### Surface
+  - Logo
+  - Color scheme
+  - Fonts
 
 ## Features 
-
+  - 
 ### Existing Features
 
 
 ### Features Left to Implement
 
-- Another feature idea
+- Online booking system for camping
+- Online store and online payment system 
 
 ## Technologies Used
 
@@ -69,7 +74,7 @@
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found here 
+[The live link can be found here] 
 
 
 ## Credits 

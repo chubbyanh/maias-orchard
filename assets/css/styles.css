@@ -1,0 +1,255 @@
+/* // GENERAL STYLING // */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #FFFDE5;
+}
+
+/* // LINKS // */
+.top-banner a {
+  color: #d34836;
+}
+
+.social-links a {
+  color: white;
+}
+
+.social-links a:hover {
+  color: pink;
+}
+
+footer a {
+  color: white;
+}
+
+footer a:hover {
+  color: pink;
+}
+
+/* // BUTTONS // */
+.btn {
+  border-radius: 0;
+}
+
+.btn-red {
+  background-color: #d34836;
+  color: white;
+}
+
+.btn-red:hover {
+  background-color: white;
+  color: #000000;
+}
+
+.btn-white {
+  background-color: white;
+  color: #000000;
+}
+
+.btn-white:hover {
+  background-color: #000000;
+  color: white;
+  border: 2px solid white;
+}
+
+.btn-black {
+  background-color: #000000;
+  color: white;
+}
+
+.btn-black:hover {
+  color: pink;
+}
+
+#btn-welcome:hover {
+  background-color: #FFFDE5;
+  color: #d34836;
+  border: 1px solid #d34836;
+}
+
+#btn-contact {
+  width: 100%;
+  border: 2px solid white;
+}
+
+/* // DIVIDERS // */
+.white-divider {
+  border: 1px solid white;
+}
+
+/* // TOP BANNER // */
+.top-banner {
+  background-color: #FFFDE5;
+  color: #d34836;
+  height: 35px;
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  padding-top: 5px;
+}
+
+.top-banner span {
+  text-transform: uppercase;
+}
+
+/* // LOGO AND HEADINGS // */
+h2 {
+  text-transform: uppercase;
+  color: white;
+}
+.featurette-heading {
+  color: #d34836;
+}
+
+/* // NAVBAR // */
+.navbar {
+  padding-top: 5px;
+  color: white;
+}
+
+/* // WELCOME SECTION // */
+.welcome-container {
+  width: 90%;
+  margin: auto;
+  padding: 5% 0;
+  display: flex;
+}
+
+.welcome-left {
+  align-items: center;
+}
+
+.welcome-right {
+  display: inline flow;
+  align-self: flex-end;
+}
+
+.social-icons>li {
+  display: inline;
+  padding-left: 15px;
+}
+
+.social-icons i {
+  font-size: 110%;
+  color: #000000;
+}
+
+#myCarousel {
+  width:100%;
+  display: block;
+}
+
+/* // CAROUSEL // */
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 40rem;
+
+}
+
+.carousel-item > img {
+  position: absolute;
+  width: 90%;
+  height: auto;
+  margin: auto;
+  left: 5%
+}
+
+/* // GALLERY // */
+#gallery {
+  color: #d34836;
+  text-align: center;
+}
+
+#gallery > h2 {
+  text-align: center;
+}
+
+.gallery-wrapper {
+  width: 100%;
+  margin: auto;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 60px;
+}
+.gallery-img {
+  width: 300px;
+}
+
+/* // CONTACT AREA // */
+.contact-area {
+  background-color: #000000;
+  color: white;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 60px;
+}
+
+.contact-right {
+  flex-shrink: 4;
+}
+
+/* contact form */
+.col-12 input,
+.col-12 textarea {
+  border-radius: 0;
+  background-color: #000000;
+  color: white;
+}
+
+input {
+  border: 2px solid white;
+  background-color: #000000;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: #d34836;
+  color: white;
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  padding-bottom: 30px;
+}
+
+footer p {
+  padding-top: 20px;
+}
+
+#back-to-top {
+  padding-right: 60px;
+}
+
+/* google map */
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 500px;
+  width: 100%;
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 500px;
+  width: 100%;
+  padding: 60px;
+}
+
+/* .carousel-item {
+  width: 1718px;
+  height: 640px;
+  object-fit: contain;
+} */
