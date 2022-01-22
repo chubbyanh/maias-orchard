@@ -2,7 +2,6 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 body {
@@ -74,6 +73,12 @@ footer a:hover {
   border: 2px solid white;
 }
 
+#btn-welcome:hover {
+  background-color: #FFFDE5;
+  color: #d34836;
+  border: 1px solid #d34836;
+}
+
 /* TOP BANNER */
 .top-banner {
   background-color: #d34836;
@@ -102,27 +107,29 @@ nav {
 }
 
 /* WELCOME SECTION */
-.welcome span h2 {
-  color: #d34836;
-  size: 280%;
+.welcome-container {
+  width: 90%;
+  margin: auto;
+  padding: 5% 0;
+  display: flex;
 }
 
-.welcome p {
-  color: #000000;
+.welcome-left {
+  align-items: center;
 }
+
 .welcome-right {
-  display: inline;
-  float: right;
+  display: inline flow;
+  align-self: flex-end;
 }
 
-.social-icons > li {
+.social-icons>li {
   display: inline;
+  padding-left: 15px;
 }
 
 .social-icons i {
-  font-size: 120%;
-  margin: 1%;
-  padding: 5%;
+  font-size: 110%;
   color: #000000;
 }
 
@@ -134,12 +141,22 @@ nav {
   color: white;
 }
 
+.divider-white {
+  color: white;
+}
+
 .col-12 input,
 .col-12 textarea {
   border-radius: 0;
   background-color: #000000;
   color: white;
 }
+
+input {
+  border: 2px solid white;
+  background-color: #000000;
+}
+
 
 /* FOOTER */
 
@@ -149,20 +166,15 @@ footer {
   text-align: center;
   width: 100%;
   margin: auto;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
 }
 
 footer p {
   padding-top: 20px;
 }
 
-input {
-  border: 2px solid white;
-  background-color: #000000;
-}
-
-.divider-white {
-  color: white;
+#back-to-top {
+  padding-right: 60px;
 }
 
 /* GOOGLE MAP */

@@ -18,13 +18,8 @@
    <!-- Fancybox styles -->
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
 
-   <!-- Custom styles for this template -->
+   <!-- Custom styles for this website -->
    <link href="assets/css/carousel.css" rel="stylesheet">
-
-   <!-- Custom styles for this template -->
-   <link href="assets/css/background_styles.css" rel="stylesheet">
-
-   <!-- Custom styles for this template -->
    <link href="assets/css/styles.css" rel="stylesheet">
 </head>
 
@@ -70,34 +65,30 @@
    <!-- /. navigation bar -->
 
    <main>
-      <!-- Welcome -->
-      <hr class="featurette-divider">
-      <section>
-         <div class="welcome">
-            <div class="welcome-left">
-               <span>
-                  <h2>Pick Your Own Fruit</h2>
-               </span>
-                  <p>Welcome to Maia's Orchard.</p>
-                  <p>Reservations Now Open</p>
-            </div>
-            <div class="welcome-right">
-               <ul class="social-icons">
-                  <li>
-                     <a href="https://facebook.com" target="_blank" rel="noopener"
-                        aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook-f"></i></a>
-                  </li>
-                  <li>
-                     <a href="https://instagram.com" target="_blank" rel="noopener"
-                        aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
-                  </li>
-                  <li>
-                     <a href="https://www.yelp.ie/" target="_blank" rel="noopener"
-                        aria-label="Visit our Yelp page (opens in a new tab)"><i class="fab fa-yelp"></i></a>
-                  </li>
-               </ul>
-               <button class="btn btn-red">Book Your Visit</button>
-            </div>
+      <!-- Welcome -->    
+      <section class="welcome-container">
+         <div class="welcome-left">
+            <span>
+               <h2>Pick Your Own Fruit</h2>
+            </span>
+            <p>Welcome to Maia's Orchard.</p>
+            <p>Reservations Now Open</p>
+         </div>
+         <div class="welcome-right">
+            <ul class="social-icons">
+               <li><a href="https://facebook.com" target="_blank" rel="noopener"
+                     aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook-f"></i></a>
+               </li>
+               <li>
+                  <a href="https://instagram.com" target="_blank" rel="noopener"
+                     aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
+               </li>
+               <li>
+                  <a href="https://www.yelp.ie/" target="_blank" rel="noopener"
+                     aria-label="Visit our Yelp page (opens in a new tab)"><i class="fab fa-yelp"></i></a>
+               </li>
+            </ul>
+            <button class="btn btn-red" id="btn-welcome">Book Your Visit</button>
          </div>
       </section>
       <!-- /. welcome -->
@@ -308,55 +299,66 @@
 
       <!-- Contact Area -->
       <hr class="featurette-divider">
+
       <section>
          <div class="contact-area">
             <div>Maia's Orchard logo</div>
             <hr class="divider-white">
-
-            <h3>Address</h3>
-            <p>500 Cashel Road</p>
-            <p>Clonmel, Co. Tipperary</p>
-            <p>info@maias.com</p>
-            <p>123-456-7890</p>
-            <h3>Opening Hours</h3>
-            <p>Weekdays</p>
-            <p>9:00 am – 5:00 pm</p>
-            <p>Weekends</p>
-            <p>10:00 am - 3:00 pm</p>
-            <button class="btn btn-white">Book Your Visit</button>
-            <h3>Social</h3>
-            <p class="social-links"><a href="https://facebook.com" target="_blank" rel="noopener"
-                  aria-label="Visit our Facebook page (opens in a new tab)">Facebook</a></p>
-            <p class="social-links"><a href="https://instagram.com" target="_blank" rel="noopener"
-                  aria-label="Visit our Instagram page (opens in a new tab)">Instagram</a></p>
-            <p class="social-links"><a href="https://www.yelp.ie/" target="_blank" rel="noopener"
-                  aria-label="Visit our Yelp page (opens in a new tab)">Yelp</a></p>
-
-            <div class="row featurette">
-               <div class="col-md-7">
-                  <h2 id="contact-us" class="featurette-heading">Contact Us</h2>
-               </div>
-               <div class="col-md-12">
-                  <form class="row g-3" action="https://formdump.codeinstitute.net/" method="post" target="_blank">
-                     <div class="col-12">
-                        <label for="inputName" class="form-label">Name</label>
-                        <input type="text" name="inputName" class="form-control" id="inputAddress" placeholder="Anh Vu"
-                           required>
-                     </div>
-                     <div class="col-12">
-                        <label for="inputEmail" class="form-label">Email</label>
-                        <input type="email" name="inputEmail" class="form-control" id="inputEmail"
-                           placeholder="anh.v@gmail.com" required>
-                     </div>
-                     <div class="col-12">
-                        <label for="inputMessage" class="form-label">Message</label>
-                        <textarea name="inputMessage" class="form-control" id="inputMessage" rows="3"
-                           placeholder="Enter your message" required></textarea>
-                     </div>
-                     <div class="col-12">
-                        <button type="submit" class="btn btn-red" id="btn-contact">Submit</button>
-                     </div>
-                  </form>
+            <div class="contact-left">
+               <h3>Address</h3>
+               <p>500 Cashel Road</p>
+               <p>Clonmel, Co. Tipperary</p>
+               <p>info@maias.com</p>
+               <p>123-456-7890</p>
+               <h3>Opening Hours</h3>
+               <p>Weekdays</p>
+               <p>9:00 am – 5:00 pm</p>
+               <p>Weekends</p>
+               <p>10:00 am - 3:00 pm</p>
+            </div>
+            <div class="contact-center">
+               <h3>Social</h3>
+               <p class="social-links">
+                  <a href="https://facebook.com" target="_blank" rel="noopener"
+                     aria-label="Visit our Facebook page (opens in a new tab)">Facebook</a>
+               </p>
+               <p class="social-links">
+                  <a href="https://instagram.com" target="_blank" rel="noopener"
+                     aria-label="Visit our Instagram page (opens in a new tab)">Instagram</a>
+               </p>
+               <p class="social-links">
+                  <a href="https://www.yelp.ie/" target="_blank" rel="noopener"
+                     aria-label="Visit our Yelp page (opens in a new tab)">Yelp</a>
+               </p>
+               <button class="btn btn-white">Book Your Visit</button>
+            </div>
+            <div class="contact-right">
+               <div class="row featurette">
+                  <div class="col-md-7">
+                     <h2 id="contact-us" class="featurette-heading">Contact Us</h2>
+                  </div>
+                  <div class="col-md-12">
+                     <form class="row g-3" action="https://formdump.codeinstitute.net/" method="post" target="_blank">
+                        <div class="col-12">
+                           <label for="inputName" class="form-label">Name</label>
+                           <input type="text" name="inputName" class="form-control" id="inputAddress"
+                              placeholder="Anh Vu" required>
+                        </div>
+                        <div class="col-12">
+                           <label for="inputEmail" class="form-label">Email</label>
+                           <input type="email" name="inputEmail" class="form-control" id="inputEmail"
+                              placeholder="anh.v@gmail.com" required>
+                        </div>
+                        <div class="col-12">
+                           <label for="inputMessage" class="form-label">Message</label>
+                           <textarea name="inputMessage" class="form-control" id="inputMessage" rows="3"
+                              placeholder="Enter your message" required></textarea>
+                        </div>
+                        <div class="col-12">
+                           <button type="submit" class="btn btn-red" id="btn-contact">Submit</button>
+                        </div>
+                     </form>
+                  </div>
                </div>
             </div>
          </div>
@@ -376,7 +378,7 @@
          </div>
       </div>
       <!-- copyright -->
-      <p class="float-end"><a href="#">Back to top</a></p>
+      <p class="float-end" id="back-to-top"><a href="#">Back to top</a></p>
       <p>&copy; 2022 by Maia's Orchard. <span>For educational purposes only.</span></p>
    </footer>
    <!-- /. footer -->
