@@ -168,6 +168,10 @@ h2 {
   text-align: center;
 }
 
+#gallery > h2 {
+  text-align: center;
+}
+
 .gallery-wrapper {
   width: 100%;
   margin: auto;
@@ -177,7 +181,6 @@ h2 {
 }
 .gallery-img {
   width: 300px;
-  align-self: center;
 }
 
 /* // CONTACT AREA // */
