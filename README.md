@@ -56,13 +56,14 @@
 - [ ] Live App chat
 
 ## Technologies Used
-- HTML, CSS, jQuery, Bootstrap 5, Fancybox
-- GitPod as development environment, Git as Version Control tool
-- Balsamig for wireframing
-- Firefox Dev Tool for debugging
-- Google Font, Font Awesome for styling
-- TinyPNG, Canva, GNU for optimazing and editing images
-- W3.CSS Color Generator to generate color themes
+- HTML, CSS, jQuery, Bootstrap 5, Fancybox (for gallery)
+- [GitPod] (https://www.gitpod.io/) as development environment, [Git] (https://git-scm.com/) as Version Control tool
+- [GitHub] (https://github.com/) to host my code, [GitHub Pages] (https://pages.github.com/) to publish the website
+- [Balsamig] (https://balsamiq.com/) for wireframing
+- [Firefox Dev Tool] (https://developer.mozilla.org/en-US/docs/Tools) for debugging
+- [Google Font] (https://fonts.google.com/), [Font Awesome] (https://fontawesome.com/) for styling
+- [TinyPNG] (https://tinypng.com/), [Canva] (https://www.canva.com/), [GIMP] (https://www.gimp.org/) for optimazing and editing images
+- [W3.CSS Color Generator] (https://www.w3schools.com/w3css/w3css_color_generator.asp) to generate color themes
 
 ## Testing 
 ### UX Stories Testing
