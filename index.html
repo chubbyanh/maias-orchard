@@ -30,7 +30,7 @@
          <p>
             <span id="banner-icon"><i class="fas fa-exclamation-circle"></i></span>
             <span><strong>restrictions in place:</strong></span> Please read our new policies before you visit.
-            <a href="#" target="_blank" rel="noopener">More details</a>
+            <a href="https://www.citizensinformation.ie/en/covid19/living_with_covid19_plan.html" target="_blank" rel="noopener">More details</a>
          </p>
       </div>
       <!-- /. top banner -->
@@ -213,7 +213,9 @@
       <section id="gallery">
          <div class="row featurette">
             <div class="col-md-12">
-               <h2 class="featurette-heading">Follow Us #Maia's Orchard</h2>
+               <h2 class="featurette-heading">
+                  <a href="https://instagram.com" target="_blank" rel="noopener"
+                  aria-label="Visit our Instagram page (opens in a new tab)">Follow Us #Maia's Orchard</a></h2>
             </div>
             <div class="col-md-12">
                <div class="grid imglist gallery-wrapper">
@@ -314,7 +316,7 @@
    </main>
 
    <!-- Footer -->
-   <!-- maps with marker https://developers.google.com/maps/documentation/javascript/adding-a-google-map -->
+   <!-- google maps with marker https://developers.google.com/maps/documentation/javascript/adding-a-google-map -->
    <footer class="bg-red">
       <div class="mapouter">
          <div class="gmap_canvas">
@@ -346,8 +348,12 @@
    <!-- google maps script -->
    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&libraries=&v=weekly" async>
    </script>
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-   <!-- javascript from https://stackoverflow.com/questions/54164397/bootstrap-4-how-to-make-fixed-top-navbar-disappear-on-scroll/54164631 -->
+
+   <!-- jQuery script -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+   </script>
+
+   <!-- code snippet from https://stackoverflow.com/questions/54164397/bootstrap-4-how-to-make-fixed-top-navbar-disappear-on-scroll/54164631 -->
    <script>
       // scroll functions
       $(window).scroll(function (e) {
@@ -360,7 +366,6 @@
          }
       });
    </script>
-
 </body>
 
 </html>
