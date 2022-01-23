@@ -217,12 +217,21 @@ h2 {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  padding: 60px;
+  padding: 30px 60px;
+}
+
+.contact-center {
+  margin-left: 8rem;
+}
+
+.contact-right {
+  width: 50rem;
+  margin-left: auto;
 }
 
   /* contact form */
-.col-7 input,
-.col-7 textarea {
+.col-12 input,
+.col-12 textarea {
   border-radius: 0;
   background-color: #000000;
   color: white;
