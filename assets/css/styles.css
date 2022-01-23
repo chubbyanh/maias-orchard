@@ -85,7 +85,7 @@ footer a:hover {
 .top-banner span {
   text-transform: uppercase;
 }
-/* top banner disappears when scroll down */
+/* top banner disappears when scrolling down */
 .top-banner {
   transition: top 0.5s ease;
 }
@@ -100,6 +100,10 @@ h2 {
   color: white;
 }
 .featurette-heading {
+  color: #d34836;
+}
+
+.featurette-heading a {
   color: #d34836;
 }
 
