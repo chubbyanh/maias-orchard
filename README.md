@@ -1,5 +1,5 @@
 # Maia's Orchard
-[View the live project here]()
+[View the live project here](https://chubbyanh.github.io/maias-orchard/)
 
   Maia's Orchard is a family owned apple farm in Clonmel, Tipperary, Ireland. The business consists of 100 arces farmland, a farm shop, and a campsite. This website is created as the main marketing channel for the business.
 
@@ -13,7 +13,7 @@
 
   __The ideal customers of this website are:__
   - People who want to buy fresh fruit from reliable sources
-  - People, especially parents who want pick-your-own fruit experience for their kids
+  - People, especially parents who want interesting activities for their kids
   - Families/groups who want a get-away camping holiday
   - Tourists who look for things to do in the area
 
@@ -49,9 +49,20 @@
 
 ### Features Left to Implement
 
-- Another feature idea
+- [ ] When users click on More details link on the top banner, a callout message box will appear
+- [ ] When users click on Book Your Visit buttons, they will be redirected to booking pages /or will call the business' phone number directly
+- [ ] When users scroll down, navigation bar will be automatically updated
+- [ ] What in season pages
+- [ ] Live App chat
 
 ## Technologies Used
+- HTML, CSS, jQuery, Bootstrap 5, Fancybox
+- GitPod as development environment, Git as Version Control tool
+- Balsamig for wireframing
+- Firefox Dev Tool for debugging
+- Google Font, Font Awesome for styling
+- TinyPNG, Canva, GNU for optimazing and editing images
+- W3.CSS Color Generator to generate color themes
 
 ## Testing 
 ### UX Stories Testing
