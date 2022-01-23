@@ -201,8 +201,12 @@ h2 {
 }
 .gallery-img {
   width: 300px;
+  transition: transform .2s;
 }
 
+.gallery-img:hover {
+  transform: scale(1.05);
+}
 /* // CONTACT AREA // */
 .contact-area {
   background-color: #000000;
