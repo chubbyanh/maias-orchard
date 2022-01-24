@@ -230,6 +230,10 @@ h2 {
 }
 
   /* contact form */
+#contact-us {
+  color: white;
+  text-align: center;
+}
 .col-12 input,
 .col-12 textarea {
   border-radius: 0;
