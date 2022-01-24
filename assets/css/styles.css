@@ -197,6 +197,8 @@ h2 {
   display: inline-block;
   position:relative;
   bottom:25rem;
+  z-index: -1;
+  padding-top: 22rem;
  }
 
 .about-left {
