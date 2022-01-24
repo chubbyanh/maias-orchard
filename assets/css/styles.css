@@ -123,6 +123,9 @@ h2 {
   color: #d34836;
 }
 
+.white-heading {
+  color: white;
+}
 /* // NAVBAR // */
 .navbar {
   padding-top: 5px;
@@ -170,7 +173,7 @@ h2 {
 
   /* Declare heights because of positioning of img element */
 .carousel-item {
-  height: 40rem;
+  height: 50rem;
 
 }
 
@@ -181,6 +184,74 @@ h2 {
   margin: auto;
   left: 5%
 }
+
+/* // ABOUT // */
+.red-background {
+  background-color: #d34836;
+  color: white;
+  height: 40rem;
+  padding-top: 20rem;
+}
+
+#about {
+  display: inline-block;
+  position:relative;
+  bottom:25rem;
+ }
+
+.about-left {
+  float: left;
+  width: 30%;
+  padding-left: 20%;
+}
+
+.about-right {
+  float: right;
+  width: 65%;
+  padding-right: 20%;
+}
+
+/* // ACTIVITIES // */
+#leads {
+  background-image: url('../images/apple-blossom-.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /*background-color: RGBA(255, 253, 229, .5);*/
+  width: 100%;
+  height: 40rem;
+  overflow: hidden;
+  opacity: .5;
+}
+
+#leads div {
+  color: white;
+}
+
+#activities {
+  display: inline-block;
+}
+/* Farm shop */
+#farm-shop {
+  background-image: url('../images/apple-jam.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 90%;
+  height: 40rem;
+  overflow: hidden;
+  margin: auto;
+  color: white;
+}
+/*
+#farm-shop div {
+  background-color: rgba(0, 0, 0, .5)
+  width: 90%;
+  height: 40rem;
+  overflow: hidden;
+  margin: auto;
+  border: none;
+}*/
 
 /* // GALLERY // */
 #gallery {
@@ -230,6 +301,9 @@ h2 {
 }
 
   /* contact form */
+#contact-us {
+  text-align: center;
+}
 .col-12 input,
 .col-12 textarea {
   border-radius: 0;
