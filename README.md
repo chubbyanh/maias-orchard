@@ -39,11 +39,15 @@
 ### Structure
 
 ### Skeleton
+  - Wireframes
 
 ### Surface
+  - Logo
+  - Color scheme
+  - Fonts
 
 ## Features 
-
+  - 
 ### Existing Features
 
 
@@ -61,7 +65,7 @@
 - [GitHub](https://github.com/) to host my code, [GitHub Pages](https://pages.github.com/) to publish the website
 - [Balsamig](https://balsamiq.com/) for wireframing
 - [Firefox Dev Tool](https://developer.mozilla.org/en-US/docs/Tools) for debugging
-- [Google Font](https://fonts.google.com/), [Font Awesome] (https://fontawesome.com/) for styling
+- [Google Font](https://fonts.google.com/), [Font Awesome](https://fontawesome.com/) for styling
 - [TinyPNG](https://tinypng.com/), [Canva](https://www.canva.com/), [GIMP](https://www.gimp.org/) for optimazing and editing images
 - [W3.CSS Color Generator](https://www.w3schools.com/w3css/w3css_color_generator.asp) to generate color themes
 
@@ -81,7 +85,7 @@
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found here 
+[The live link can be found here] 
 
 
 ## Credits 
