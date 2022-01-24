@@ -194,11 +194,21 @@ h2 {
 }
 
 #about {
-  display: block;
+  display: inline-block;
   position:relative;
   bottom:25rem;
  }
 
+.about-left {
+  float: left;
+  width: 30%;
+  padding-left: 20%;
+}
+
+.about-right {
+  float: right;
+  width: 65%;
+  padding-right: 20%;
 }
 
 /* // ACTIVITIES // */
@@ -233,17 +243,15 @@ h2 {
   margin: auto;
   color: white;
 }
-
+/*
 #farm-shop div {
-  border: none;
   background-color: rgba(0, 0, 0, .5)
-  background-size: cover;
   width: 90%;
   height: 40rem;
   overflow: hidden;
   margin: auto;
-
-}
+  border: none;
+}*/
 
 /* // GALLERY // */
 #gallery {
