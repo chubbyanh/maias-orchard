@@ -156,9 +156,9 @@ __[The live link can be found here](https://chubbyanh.github.io/maias-orchard/)_
 ### Content 
 
 ### Media
-- Image [Staff selling apple](https://pikwizard.com/photo/smiling-female-staff-holding-a-basket-of-green-apple-at-supermarket/edf79671f221bc69fb2f3d92c26b9bba)
-- Image [Berries](https://pixabay.com/photos/berries-fruits-food-blackberries-2277/)
-- Image [Apple blossom](https://pixabay.com/photos/blossom-embellishment-raindrop-4118336/)
+- Image [Staff selling apple](https://pikwizard.com/photo/smiling-female-staff-holding-a-basket-of-green-apple-at-supermarket/edf79671f221bc69fb2f3d92c26b9bba) taken from Pikiwizard
+- Image [Berries](https://pixabay.com/photos/berries-fruits-food-blackberries-2277/) taken from Pizabay
+- Image [Apple blossom](https://pixabay.com/photos/blossom-embellishment-raindrop-4118336/) taken from Pizabay
 - Other images sourced from [Shutterstock](https://www.shutterstock.com/)
 
 ### Acknowledgements
