@@ -3,6 +3,38 @@
 
   Maia's Orchard is a family owned apple farm in Clonmel, Tipperary, Ireland. The business consists of 100 arces farmland, a farm shop, and a campsite. This website is created as the main marketing channel for the business.
 
+## Table of Contents:
+1. [About the project](#about-the-project)
+2. [Website structure](#website-structure)
+    1. [Navigation](#navigation)
+    2. [Header](#header)
+    3. [About Us](#about-us)
+    4. [Footer](#footer)
+    5. [Why Swap](#why-to-swap)
+    6. [Swap Snaps (Gallery)](#swap-snaps-gallery)
+    7. [Next Swap](#next-swap)
+3. [Wireframes](#wireframes)
+4. [Website surface](#website-surface)
+    1. [Colors](#colors)
+    2. [Typography](#typography)
+    3. [Icons and images](#icons-and-images)
+5. [Testing](#testing)
+    1. [HTML Validator](#html-validator)
+    2. [Jigsaw CSS Validator](#jigsaw-css-validator)
+    3. [Lighthouse accessibility (Chrome DevTools)](#lighthouse-accessibility-chrome-devtools)
+    4. [Manual testing](#manual-testing)
+6. [Bugs and fixes](#bugs-and-fixes)
+7. [Deployment](#deployment)
+    1. [GitHub Pages](#github-pages)
+    2. [Forking Repository](#forking-the-github-repository)
+    3. [Cloning the project](#cloning-the-project)
+8. [Used technologies and credits](#used-technologies-and-credits)
+    1. [Languages](#languages)
+    2. [Content](#content)
+    3. [Media](#media)
+    4. [Other technologies](#other-technologies)
+    5. [Credits](#credits)
+
 ## User Experience
 ### Strategy
   __The business goals of this website are:__
@@ -78,7 +110,8 @@
 ### Unfixed Bugs
 
 
-## Deployment
+# Deployment
+## GitHub Pages
 
 The steps to deploy via GitHub Pages:
 
