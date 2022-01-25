@@ -80,12 +80,48 @@
 
 ## Deployment
 
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+The steps to deploy via GitHub Pages:
 
-[The live link can be found here] 
+1. Log into Github account.
+2. Navigate to the [Repository](https://github.com/chubbyanh/maias-orchard).
+3. Click the 'Settings' option at the top of the repository.
+4. Click the 'Pages' option on the left-hand menu, located near the bottom.
+5. Within the 'Source' tab Select the drop-down titled 'None'.
+6. Select the branch named 'main' (in some cases it can be named 'Master').
+7. Click 'Save'.
+8. You will be prompted with a URL to your deployed site.
+9. Site deployed.
+
+When the above steps have been completed, it can sometimes take a lmoment for the deployed URL to update. It is enough to refresh the page until the site is fully deployed.
+
+## Forking The GitHub Repository
+
+To use this code and make changes without affecting the original code you can do what is called 'Forking the repository'. By forking this repository you are given a copy of the code at that moment in time that you can use freely. To fork this repository you need to follow the following few steps:
+
+1. Log into your GitHub account.
+2. Navigate to the [Repository](https://github.com/chubbyanh/maias-orchard), you are wanting to fork.
+3. In the upper-right of the repository, click the 'Fork' button.
+4. A copy of the Repository will now be available within your repositories.
+
+You will now have a copy of the code available to clone and work on without affecting the original code.
+
+## Cloning the Project.
+
+To make a local clone of the project follow these steps:
+
+1. Log into your GitHub account.
+2. Navigate to the [Repository](https://github.com/chubbyanh/maias-orchard).
+3. In the upper section of the repository click the dropdown named 'Code'.
+4. Copy the SHH address.
+5. Open GitBash
+6. Navigate to the correct directory.
+7. Create a new directory named 'cork-swap'.
+8. CD into 'cork-swap'.
+9. Enter 'git clone SSH_ADDRESS'
+10. GitBash will clone the repository into this directory.
+11. enter 'code .' and this will open VS CODE and happy coding.
+
+[The live link can be found here](https://chubbyanh.github.io/maias-orchard/)
 
 
 ## Credits 
@@ -97,4 +133,4 @@
 ## Acknowledgements
 
 ## Disclaimer
-  Maia's Orchard is a fictional business. This website is created for educational purposes only.
+  Maia's Orchard is an imaginary business. This website is created for educational purposes only.
