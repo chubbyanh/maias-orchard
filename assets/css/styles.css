@@ -93,7 +93,7 @@ footer a:hover {
 .top-banner span {
   text-transform: uppercase;
 }
-  /* top banner disappears when scrolling down */
+  /* Top banner disappears when scrolling down */
 .top-banner {
   transition: top 0.5s ease;
 }
@@ -111,7 +111,6 @@ h2 {
 .featurette-heading {
   font-weight: 300;
   line-height: 1;
-  /* rtl:remove */
   letter-spacing: -.05rem;
 }
 
@@ -193,8 +192,8 @@ h2 {
   padding-top: 20rem;
 }
 
+  /* Transition Carousel to lay on top of About Our Farm section */
 #about {
-  display: inline-block;
   position:relative;
   bottom:25rem;
   z-index: -1;
@@ -233,27 +232,38 @@ h2 {
 #activities {
   display: inline-block;
 }
-/* Farm shop */
-#farm-shop {
+#u-pick {
+  padding-left: 10%;
+  padding-top: 5%;
+}
+  /* Farm shop */
+#activities .container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+.farm-shop {
   background-image: url('../images/apple-jam.jpg');
-  background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  width: 90%;
-  height: 40rem;
-  overflow: hidden;
-  margin: auto;
+  display: block;
   color: white;
-}
-/*
-#farm-shop div {
-  background-color: rgba(0, 0, 0, .5)
-  width: 90%;
+  width: 100%;
   height: 40rem;
   overflow: hidden;
-  margin: auto;
-  border: none;
-}*/
+}
+
+.shop-container {
+  width: 100%;
+  height: 40rem;
+  background-color: RGBA(0, 0, 0, .5);
+  position: absolute;
+}
+
+.shop-container h2,
+.shop-container p {
+  padding-left: 10%;
+  padding-right: 30%;
+}
 
 /* // GALLERY // */
 #gallery {
