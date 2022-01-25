@@ -1,5 +1,5 @@
 # Maia's Orchard
-[View the live project here](https://chubbyanh.github.io/maias-orchard/)
+__[View the live project here](https://chubbyanh.github.io/maias-orchard/)__
 
   Maia's Orchard is a family owned apple farm in Clonmel, Tipperary, Ireland. The business consists of 100 arces farmland, a farm shop, and a campsite. This website is created as the main marketing channel for the business.
 
@@ -126,7 +126,7 @@ When the above steps have been completed, it can sometimes take a lmoment for th
 To use this code and make changes without affecting the original code you can do what is called 'Forking the repository'. By forking this repository you are given a copy of the code at that moment in time that you can use freely. To fork this repository you need to follow the following few steps:
 
 1. Log into your GitHub account.
-2. Navigate to the [Repository](https://github.com/chubbyanh/maias-orchard), you are wanting to fork.
+2. Navigate to the [Repository](https://github.com/chubbyanh/maias-orchard) that you want to fork.
 3. In the upper-right of the repository, click the 'Fork' button.
 4. A copy of the Repository will now be available within your repositories.
 
@@ -148,7 +148,7 @@ To make a local clone of the project follow these steps:
 10. GitBash will clone the repository into this directory.
 11. enter 'code .' and this will open VS CODE and happy coding.
 
-[The live link can be found here](https://chubbyanh.github.io/maias-orchard/)
+__[The live link can be found here](https://chubbyanh.github.io/maias-orchard/)__
 
 
 ## Credits 
