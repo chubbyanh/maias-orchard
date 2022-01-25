@@ -6,7 +6,7 @@ __[View the live project here](https://chubbyanh.github.io/maias-orchard/)__
 ## Table of Contents:
 1. [User experience](#user-experience)
     1. [Strategy](#strategy)
-    2. [Scope](scope)
+    2. [Scope](#scope)
     3. [Structure](#structure)
     4. [Skeleton](#skeleton)
     5. [Surface](#surface)
@@ -85,19 +85,19 @@ __[View the live project here](https://chubbyanh.github.io/maias-orchard/)__
 - [ ] Live App chat
 
 ## Technologies Used
-- HTML, CSS, jQuery, Bootstrap 5, Fancybox (for gallery)
-- [GitPod](https://www.gitpod.io/) as development environment, [Git](https://git-scm.com/) as Version Control tool
+- HTML, CSS, jQuery, [Bootstrap 5](https://getbootstrap.com/docs/5.1/getting-started/introduction/), [Fancybox](https://fancyapps.com/docs/ui/fancybox/)
+- [GitPod](https://www.gitpod.io/) and [VSCodea](https://code.visualstudio.com/) as development environments, [Git](https://git-scm.com/) as Version Control tool
 - [GitHub](https://github.com/) to host my code, [GitHub Pages](https://pages.github.com/) to publish the website
 - [Balsamig](https://balsamiq.com/) for wireframing
 - [Firefox Dev Tool](https://developer.mozilla.org/en-US/docs/Tools) for debugging
-- [Google Font](https://fonts.google.com/), [Font Awesome](https://fontawesome.com/) for styling
+- [Google Font](https://fonts.google.com/), [Font Awesome](https://fontawesome.com/), [Hex2rgba](http://hex2rgba.devoth.com/) for styling
 - [TinyPNG](https://tinypng.com/), [Canva](https://www.canva.com/), [GIMP](https://www.gimp.org/) for optimazing and editing images
 - [W3.CSS Color Generator](https://www.w3schools.com/w3css/w3css_color_generator.asp) to generate color themes
 
 ## Testing 
 ### UX Stories Testing
 ![Transition bug](assets/docs/transition-bug.png)
-![Transition bug - fixed](assets/docs/transition-bug-fixed.png))
+![Transition bug - fixed](assets/docs/transition-bug-fixed.png)
 ### Validator Testing 
 
 
@@ -156,8 +156,12 @@ __[The live link can be found here](https://chubbyanh.github.io/maias-orchard/)_
 ### Content 
 
 ### Media
+- Image [Staff selling apple](https://pikwizard.com/photo/smiling-female-staff-holding-a-basket-of-green-apple-at-supermarket/edf79671f221bc69fb2f3d92c26b9bba)
+- Image [Berries](https://pixabay.com/photos/berries-fruits-food-blackberries-2277/)
+- Image [Apple blossom](https://pixabay.com/photos/blossom-embellishment-raindrop-4118336/)
+- Other images sourced from [Shutterstock](https://www.shutterstock.com/)
 
-## Acknowledgements
+### Acknowledgements
 
-## Disclaimer
+### Disclaimer
   Maia's Orchard is an imaginary business. This website is created for educational purposes only.
