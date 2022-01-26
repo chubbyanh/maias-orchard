@@ -70,7 +70,14 @@ __[View the live project here](https://chubbyanh.github.io/maias-orchard/)__
 
 ### Surface
   - Logo
-  - Color scheme
+  - Color scheme:
+      There are 3 main colors using in this website:
+      ![#d34836](assets/docs/color-scheme-1.png)
+      ![#FFFD](assets/docs/color-scheme-2.png)
+      ![#000000](assets/docs/color-scheme-4.png)
+      Other than that, I used 2 sub-colors: #ffc0cb for hover affect and #ffffff as the alternative of 
+      ![#ffc0cb](assets/docs/color-scheme-3.png)
+      ![#ffffff](assets/docs/color-scheme-5.png)
   - Fonts
 
 ## Features 
@@ -83,6 +90,7 @@ __[View the live project here](https://chubbyanh.github.io/maias-orchard/)__
 - [ ] When users click on More details link on the top banner, a callout message box will appear
 - [ ] When users click on Book Your Visit buttons, they will be redirected to booking pages /or will call the business' phone number directly
 - [ ] When users scroll down, navigation bar will be automatically updated
+- [ ] Using [Cloudinary](https://cloudinary.com/) in order to reduce page weight and page load time
 - [ ] What In Season pages
 - [ ] Testimonials section, including testimonials, certificates, awards 
 - [ ] Live App chat
@@ -178,8 +186,8 @@ __[The live link can be found here](https://chubbyanh.github.io/maias-orchard/)_
 - Other images: sourced from [Shutterstock](https://www.shutterstock.com/)
 
 ## Acknowledgements
-  - I would like to thank my mentor, @guidocecilio, for his support throughout my project. It is unfortunate that due to my personal circumstances, I couldn't complete this project on time, but I defenitely learnt a lot from him after every mentoring sessions.
-  - I also would like to thank my classmates (msletb-nov-2021 cohort) at Code Institute for their continuing support.
+  - I would like to thank my mentor, [Guido Cecilio](https://github.com/guidocecilio), for his support throughout my project. It is unfortunate that due to my personal circumstances, I couldn't complete this project on time, but I defenitely learnt a lot from him after every mentoring sessions.
+  - I also would like to thank my classmates (msletb-nov-2021 cohort) at Code Institute and Kasia Bogucka, our corhort's coordinator, for their continuing support.
 
 ## Disclaimer
   Maia's Orchard is an imaginary business. This website is created for educational purposes only.
