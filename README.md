@@ -69,16 +69,24 @@ __[View the live project here](https://chubbyanh.github.io/maias-orchard/)__
 
 
 ### Surface
-  - Logo
-  - Color scheme:
-      There are 3 main colors using in this website:
-      ![#d34836](assets/docs/color-scheme-1.png)
-      ![#FFFD](assets/docs/color-scheme-2.png)
-      ![#000000](assets/docs/color-scheme-4.png)
-      Other than that, I used 2 sub-colors: #ffc0cb for hover affect and #ffffff as the alternative of 
-      ![#ffc0cb](assets/docs/color-scheme-3.png)
-      ![#ffffff](assets/docs/color-scheme-5.png)
-  - Fonts
+  - __Logo__
+
+  - __Color scheme__
+    There are 3 main colors using in this website:
+    ![#d34836](assets/docs/color-scheme-1.png)
+
+    ![#FFFDE5](assets/docs/color-scheme-2.png)
+    
+    ![#000000](assets/docs/color-scheme-4.png)
+
+    - Other than that, I used 2 sub-colors:
+      - #ffc0cb for hover affect
+    ![#ffc0cb](assets/docs/color-scheme-3.png)
+
+      - #ffffff as the alternative of #FFFDE5
+    ![#ffffff](assets/docs/color-scheme-5.png)
+
+  - __Fonts__
 
 ## Features 
   
@@ -90,7 +98,7 @@ __[View the live project here](https://chubbyanh.github.io/maias-orchard/)__
 - [ ] When users click on More details link on the top banner, a callout message box will appear
 - [ ] When users click on Book Your Visit buttons, they will be redirected to booking pages /or will call the business' phone number directly
 - [ ] When users scroll down, navigation bar will be automatically updated
-- [ ] Using [Cloudinary](https://cloudinary.com/) in order to reduce page weight and page load time
+- [ ] Reduce page weight and page load time by using [Cloudinary](https://cloudinary.com/) 
 - [ ] What In Season pages
 - [ ] Testimonials section, including testimonials, certificates, awards 
 - [ ] Live App chat
