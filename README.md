@@ -25,8 +25,8 @@ __[View the live project here](https://chubbyanh.github.io/maias-orchard/)__
 8. [Credits](#credits)
     1. [Content](#content)
     2. [Media](#media)
-    3. [Acknowledgements](#acknowledgements)
-    4. [Disclaimer](#disclaimer)
+9. [Acknowledgements](#acknowledgements)
+10. [Disclaimer](#disclaimer)
 
 ## User Experience
 ### Strategy
@@ -83,12 +83,13 @@ __[View the live project here](https://chubbyanh.github.io/maias-orchard/)__
 - [ ] When users click on More details link on the top banner, a callout message box will appear
 - [ ] When users click on Book Your Visit buttons, they will be redirected to booking pages /or will call the business' phone number directly
 - [ ] When users scroll down, navigation bar will be automatically updated
-- [ ] What in season pages
+- [ ] What In Season pages
+- [ ] Testimonials section, including testimonials, certificates, awards 
 - [ ] Live App chat
 
 ## Technologies Used
-- HTML, CSS, jQuery, [Bootstrap 5](https://getbootstrap.com/docs/5.1/getting-started/introduction/), [Fancybox](https://fancyapps.com/docs/ui/fancybox/)
-- [GitPod](https://www.gitpod.io/) and [VSCodea](https://code.visualstudio.com/) as development environments, [Git](https://git-scm.com/) as Version Control tool
+- HTML, CSS, jQuery, [Bootstrap 5](https://getbootstrap.com/docs/5.1/getting-started/introduction/), [Fancybox](https://fancyapps.com/docs/ui/fancybox/), [Google APIs](https://developers.google.com/maps/)
+- [GitPod](https://www.gitpod.io/) and [VSCodea](https://code.visualstudio.com/) as development environment, [Git](https://git-scm.com/) as Version Control tool
 - [GitHub](https://github.com/) to host my code, [GitHub Pages](https://pages.github.com/) to publish the website
 - [Balsamig](https://balsamiq.com/) for wireframing
 - [Firefox Dev Tool](https://developer.mozilla.org/en-US/docs/Tools) for debugging
@@ -97,14 +98,23 @@ __[View the live project here](https://chubbyanh.github.io/maias-orchard/)__
 - [W3.CSS Color Generator](https://www.w3schools.com/w3css/w3css_color_generator.asp) to generate color themes
 
 ## Testing 
-### UX Stories Testing
+### Manual Testing
+- Transition bug:
+Before fixing
 ![Transition bug](assets/docs/transition-bug.png)
+
+After fixing
 ![Transition bug - fixed](assets/docs/transition-bug-fixed.png)
+
 ### Validator Testing 
+__[HTML Validator Testing](https://validator.w3.org/)__
+
+__[CSS Validator Testing](https://jigsaw.w3.org/css-validator/)__
+
+__[Color Contrast Accessibility Validator](https://color.a11y.com/)__
 
 
 ### Unfixed Bugs
-
 
 ## Deployment
 ### GitHub Pages
@@ -121,7 +131,7 @@ The steps to deploy via GitHub Pages:
 8. You will be prompted with a URL to your deployed site.
 9. Site deployed.
 
-When the above steps have been completed, it can sometimes take a lmoment for the deployed URL to update. It is enough to refresh the page until the site is fully deployed.
+When the above steps have been completed, it can sometimes take a moment for the deployed URL to update. It is enough to refresh the page until the site is fully deployed.
 
 ### Forking The GitHub Repository
 
@@ -134,7 +144,7 @@ To use this code and make changes without affecting the original code you can do
 
 You will now have a copy of the code available to clone and work on without affecting the original code.
 
-### Cloning the Project.
+### Cloning the Project
 
 To make a local clone of the project follow these steps:
 
@@ -148,16 +158,17 @@ To make a local clone of the project follow these steps:
 8. CD into 'maias-orchard'.
 9. Enter 'git clone SSH_ADDRESS'
 10. GitBash will clone the repository into this directory.
-11. enter 'code .' and this will open VS CODE and happy coding.
+11. Enter 'code .' and this will open VS CODE and happy coding.
 
 __[The live link can be found here](https://chubbyanh.github.io/maias-orchard/)__
 
 
 ## Credits
 ### Content
-- Content of [Deployment](#deployment) section of README.md file was forked from [my classmate's README.md file - Katarzyna Zurawska](https://github.com/katzur/cork-swap/blob/main/README.md)
-- General website's design was inspired by [this template on Wix](https://www.wix.com/website-template/view/html/2690)
-- Bootstrap 5 and Fancybox's templates were taken from [my mentor's templates](https://guidocecilio.github.io/ci-m1-bootstrap-template/)
+- Content of this website was written by the developer. However, business idea was inspired by a [real business in Tipperary - The Apple Farm](https://www.theapplefarm.com/), that I am a regular customer of.
+- The [Deployment](#deployment) section's content of README.md file was forked from [my classmate's README.md file - Katarzyna Zurawska](https://github.com/katzur/cork-swap/blob/main/README.md)
+- The website's general design was inspired by [this template on Wix](https://www.wix.com/website-template/view/html/2690)
+- Bootstrap 5 and Fancybox's templates were taken from [my mentor's Carousel templates](https://guidocecilio.github.io/ci-m1-bootstrap-template/)
 
 ### Media
 - Image [Staff selling apple](https://pikwizard.com/photo/smiling-female-staff-holding-a-basket-of-green-apple-at-supermarket/edf79671f221bc69fb2f3d92c26b9bba): taken from Pikiwizard
@@ -166,7 +177,9 @@ __[The live link can be found here](https://chubbyanh.github.io/maias-orchard/)_
 - Image [Hand holding apple basket](https://www.pexels.com/photo/ethnic-woman-picking-apples-in-basket-5528994/): taken from Pexels
 - Other images: sourced from [Shutterstock](https://www.shutterstock.com/)
 
-### Acknowledgements
+## Acknowledgements
+  - I would like to thank my mentor, @guidocecilio, for his support throughout my project. It is unfortunate that due to my personal circumstances, I couldn't complete this project on time, but I defenitely learnt a lot from him after every mentoring sessions.
+  - I also would like to thank my classmates (msletb-nov-2021 cohort) at Code Institute for their continuing support.
 
-### Disclaimer
+## Disclaimer
   Maia's Orchard is an imaginary business. This website is created for educational purposes only.
