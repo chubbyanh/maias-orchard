@@ -37,16 +37,16 @@ __[View the live project here](https://chubbyanh.github.io/maias-orchard/)__
   - To drive more sales
 
   __The ideal customers of this website are:__
-  - People who want to buy fresh fruit from reliable sources
-  - People, especially parents who want interesting activities for their kids
+  - People who want to buy fresh fruit from a reliable sources
+  - People, especially parents, who want interesting activities for their kids
   - Families/groups who want a get-away camping holiday
-  - Tourists who look for things to do in the area
+  - Tourists looking for things to do in the area
 
   __The customer goals of this website are:__
   - To find out basic info about the business:
     - What products and services they offer
-    - What is in season and what not
-    - Direction to the farm
+    - What is in season
+    - Directions to the farm
     - How to trade, how to make a booking
     - How to contact staff
   - To understand the business's core values
