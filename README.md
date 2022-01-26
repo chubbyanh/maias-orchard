@@ -64,7 +64,9 @@ __[View the live project here](https://chubbyanh.github.io/maias-orchard/)__
 ### Structure
 
 ### Skeleton
-  - Wireframes
+  __Wireframes__
+  - [Wireframe for mobile](https://balsamiq.cloud/sukw8nh/porgy8r)
+
 
 ### Surface
   - Logo
@@ -142,8 +144,8 @@ To make a local clone of the project follow these steps:
 4. Copy the SHH address.
 5. Open GitBash
 6. Navigate to the correct directory.
-7. Create a new directory named 'cork-swap'.
-8. CD into 'cork-swap'.
+7. Create a new directory named 'maias-orchard'.
+8. CD into 'maias-orchard'.
 9. Enter 'git clone SSH_ADDRESS'
 10. GitBash will clone the repository into this directory.
 11. enter 'code .' and this will open VS CODE and happy coding.
@@ -151,15 +153,18 @@ To make a local clone of the project follow these steps:
 __[The live link can be found here](https://chubbyanh.github.io/maias-orchard/)__
 
 
-## Credits 
-
-### Content 
+## Credits
+### Content
+- Content of [Deployment](#deployment) section of README.md file was forked from [my classmate's README.md file - Katarzyna Zurawska](https://github.com/katzur/cork-swap/blob/main/README.md)
+- General website's design was inspired by [this template on Wix](https://www.wix.com/website-template/view/html/2690)
+- Bootstrap 5 and Fancybox's templates were taken from [my mentor's templates](https://guidocecilio.github.io/ci-m1-bootstrap-template/)
 
 ### Media
-- Image [Staff selling apple](https://pikwizard.com/photo/smiling-female-staff-holding-a-basket-of-green-apple-at-supermarket/edf79671f221bc69fb2f3d92c26b9bba) taken from Pikiwizard
-- Image [Berries](https://pixabay.com/photos/berries-fruits-food-blackberries-2277/) taken from Pizabay
-- Image [Apple blossom](https://pixabay.com/photos/blossom-embellishment-raindrop-4118336/) taken from Pizabay
-- Other images sourced from [Shutterstock](https://www.shutterstock.com/)
+- Image [Staff selling apple](https://pikwizard.com/photo/smiling-female-staff-holding-a-basket-of-green-apple-at-supermarket/edf79671f221bc69fb2f3d92c26b9bba): taken from Pikiwizard
+- Image [Berries](https://pixabay.com/photos/berries-fruits-food-blackberries-2277/): taken from Pizabay
+- Image [Apple blossom](https://pixabay.com/photos/blossom-embellishment-raindrop-4118336/): taken from Pizabay
+- Image [Hand holding apple basket](https://www.pexels.com/photo/ethnic-woman-picking-apples-in-basket-5528994/): taken from Pexels
+- Other images: sourced from [Shutterstock](https://www.shutterstock.com/)
 
 ### Acknowledgements
 
