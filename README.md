@@ -76,21 +76,21 @@ The main targeted users of this website are families with kids, so I wanted to u
 
     There are 3 main colors using in this website:
 
-    ![#d34836](assets/docs/color-scheme-1.png)
+    ![#d34836](assets/images/readme-images/color-scheme-1.png)
 
-    ![#FFFDE5](assets/docs/color-scheme-2.png)
+    ![#FFFDE5](assets/images/readme-images/color-scheme-2.png)
     
-    ![#000000](assets/docs/color-scheme-4.png)
+    ![#000000](assets/images/readme-images/color-scheme-4.png)
 
     Other than that, I used 2 sub-colors:
 
     #ffc0cb for hover affect
 
-    ![#ffc0cb](assets/docs/color-scheme-3.png)
+    ![#ffc0cb](assets/images/readme-images/color-scheme-3.png)
 
     #ffffff as the alternative of #FFFDE5
 
-    ![#ffffff](assets/docs/color-scheme-5.png)
+    ![#ffffff](assets/images/readme-images/color-scheme-5.png)
 
   - __Fonts__
 
@@ -130,11 +130,11 @@ __Transition bug:__
 
 Before fixing
 
-![Transition bug](assets/docs/transition-bug.png)
+![Transition bug](assets/images/readme-images/transition-bug.png)
 
 After fixing
 
-![Transition bug - fixed](assets/docs/transition-bug-fixed.png)
+![Transition bug - fixed](assets/images/readme-images/transition-bug-fixed.png)
 
 ### Validator Testing 
 __[HTML Validator Testing](https://validator.w3.org/)__
