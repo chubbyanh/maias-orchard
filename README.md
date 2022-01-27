@@ -37,17 +37,17 @@ __[View the live project here](https://chubbyanh.github.io/maias-orchard/)__
   - To drive more sales
 
   __The ideal customers of this website are:__
-  - People who want to buy fresh fruit from reliable sources
-  - People, especially parents who want interesting activities for their kids
+  - People who want to buy fresh fruit from a reliable sources
+  - People, especially parents, who want interesting activities for their kids
   - Families/groups who want a get-away camping holiday
-  - Tourists who look for things to do in the area
+  - Tourists looking for things to do in the area
 
   __The customer goals of this website are:__
   - To find out basic info about the business:
     - What products and services they offer
-    - What is in season and what not
-    - Direction to the farm
-    - How to trade, how to make a booking
+    - What is in season
+    - Directions to the farm
+    - How to make a booking
     - How to contact staff
   - To understand the business's core values
   - To seek validation that the products and services are good and worthy
@@ -69,21 +69,27 @@ __[View the live project here](https://chubbyanh.github.io/maias-orchard/)__
 
 
 ### Surface
+The main targeted users of this website are families with kids, so I wanted to use colors and fonts that represent warmth, happiness, friendliness, and firmness.
   - __Logo__
 
   - __Color scheme__
+
     There are 3 main colors using in this website:
+
     ![#d34836](assets/docs/color-scheme-1.png)
 
     ![#FFFDE5](assets/docs/color-scheme-2.png)
     
     ![#000000](assets/docs/color-scheme-4.png)
 
-    - Other than that, I used 2 sub-colors:
-      - #ffc0cb for hover affect
+    Other than that, I used 2 sub-colors:
+
+    #ffc0cb for hover affect
+
     ![#ffc0cb](assets/docs/color-scheme-3.png)
 
-      - #ffffff as the alternative of #FFFDE5
+    #ffffff as the alternative of #FFFDE5
+
     ![#ffffff](assets/docs/color-scheme-5.png)
 
   - __Fonts__
@@ -91,35 +97,43 @@ __[View the live project here](https://chubbyanh.github.io/maias-orchard/)__
 ## Features 
   
 ### Existing Features
-
+  - __Top banner__
+  - __Navigation bar__
+  - __Welcome section__
+  - __About section__
+  - __Activities section__
+  - __Contact section__
 
 ### Features Left to Implement
 
-- [ ] When users click on More details link on the top banner, a callout message box will appear
-- [ ] When users click on Book Your Visit buttons, they will be redirected to booking pages /or will call the business' phone number directly
-- [ ] When users scroll down, navigation bar will be automatically updated
+- [ ] When users click on "More details" link on the top banner, a callout message box will appear
+- [ ] When users click on "Book Your Visit" buttons, they will be redirected to booking pages /or will call the business' phone number directly
+- [ ] When users scroll down, the navigation bar will be automatically updated (scrollspy)
 - [ ] Reduce page weight and page load time by using [Cloudinary](https://cloudinary.com/) 
-- [ ] What In Season pages
+- [ ] What's In Season pages
 - [ ] Testimonials section, including testimonials, certificates, awards 
 - [ ] Live App chat
 
 ## Technologies Used
 - HTML, CSS, jQuery, [Bootstrap 5](https://getbootstrap.com/docs/5.1/getting-started/introduction/), [Fancybox](https://fancyapps.com/docs/ui/fancybox/), [Google APIs](https://developers.google.com/maps/)
-- [GitPod](https://www.gitpod.io/) and [VSCodea](https://code.visualstudio.com/) as development environment, [Git](https://git-scm.com/) as Version Control tool
+- [GitPod](https://www.gitpod.io/) and [VSCode](https://code.visualstudio.com/) as development environment, [Git](https://git-scm.com/) as Version Control tool
 - [GitHub](https://github.com/) to host my code, [GitHub Pages](https://pages.github.com/) to publish the website
 - [Balsamig](https://balsamiq.com/) for wireframing
 - [Firefox Dev Tool](https://developer.mozilla.org/en-US/docs/Tools) for debugging
 - [Google Font](https://fonts.google.com/), [Font Awesome](https://fontawesome.com/), [Hex2rgba](http://hex2rgba.devoth.com/) for styling
-- [TinyPNG](https://tinypng.com/), [Canva](https://www.canva.com/), [GIMP](https://www.gimp.org/) for optimazing and editing images
+- [TinyPNG](https://tinypng.com/), [Canva](https://www.canva.com/), [GIMP](https://www.gimp.org/) for optimizing and editing images
 - [W3.CSS Color Generator](https://www.w3schools.com/w3css/w3css_color_generator.asp) to generate color themes
 
 ## Testing 
 ### Manual Testing
-- Transition bug:
+__Transition bug:__
+
 Before fixing
+
 ![Transition bug](assets/docs/transition-bug.png)
 
 After fixing
+
 ![Transition bug - fixed](assets/docs/transition-bug-fixed.png)
 
 ### Validator Testing 
@@ -131,7 +145,9 @@ __[Color Contrast Accessibility Validator](https://color.a11y.com/)__
 
 
 ### Unfixed Bugs
+This is an incomplete project, so there are still tons of unfixed bugs.
 
+My top priority when I have a chance to work on this again would be responsiveness. Maybe I should revamp the whole website's layout.
 ## Deployment
 ### GitHub Pages
 
