@@ -197,7 +197,7 @@ __[The live link can be found here](https://chubbyanh.github.io/maias-orchard/)_
 
 ## Credits
 ### Content
-- Content of this website was written by the developer. However, business idea was inspired by a [real business in Tipperary - The Apple Farm](https://www.theapplefarm.com/), that I am a regular customer of.
+- Business idea was inspired by a [real business in Tipperary - The Apple Farm](https://www.theapplefarm.com/), that I am a regular customer of.
 - The [Deployment](#deployment) section's content of README.md file was forked from [my classmate's README.md file - Katarzyna Zurawska](https://github.com/katzur/cork-swap/blob/main/README.md)
 - The website's general design was inspired by [this template on Wix](https://www.wix.com/website-template/view/html/2690)
 - Bootstrap 5 and Fancybox's templates were taken from [my mentor's Carousel templates](https://guidocecilio.github.io/ci-m1-bootstrap-template/)
