@@ -203,15 +203,15 @@ __[The live link can be found here](https://chubbyanh.github.io/maias-orchard/)_
 - Bootstrap 5 and Fancybox's templates were taken from [my mentor's Carousel templates](https://guidocecilio.github.io/ci-m1-bootstrap-template/)
 
 ### Media
-- Image [Staff selling apple](https://pikwizard.com/photo/smiling-female-staff-holding-a-basket-of-green-apple-at-supermarket/edf79671f221bc69fb2f3d92c26b9bba): taken from Pikiwizard
-- Image [Berries](https://pixabay.com/photos/berries-fruits-food-blackberries-2277/): taken from Pizabay
-- Image [Apple blossom](https://pixabay.com/photos/blossom-embellishment-raindrop-4118336/): taken from Pizabay
-- Image [Hand holding apple basket](https://www.pexels.com/photo/ethnic-woman-picking-apples-in-basket-5528994/): taken from Pexels
-- Other images: sourced from [Shutterstock](https://www.shutterstock.com/)
+- Image [Staff selling apple](https://pikwizard.com/photo/smiling-female-staff-holding-a-basket-of-green-apple-at-supermarket/edf79671f221bc69fb2f3d92c26b9bba): free free license, taken from Pikiwizard
+- Image [Berries](https://pixabay.com/photos/berries-fruits-food-blackberries-2277/): free license, taken from Pizabay
+- Image [Apple blossom](https://pixabay.com/photos/blossom-embellishment-raindrop-4118336/): free license, taken from Pizabay
+- Image [Hand holding apple basket](https://www.pexels.com/photo/ethnic-woman-picking-apples-in-basket-5528994/): free license, taken from Pexels
+- Other images: purchased from [Shutterstock](https://www.shutterstock.com/)
 
 ## Acknowledgements
   - I would like to thank my mentor, [Guido Cecilio](https://github.com/guidocecilio), for his support throughout my project. It is unfortunate that due to my personal circumstances, I couldn't complete this project on time, but I defenitely learnt a lot from him after every mentoring sessions.
-  - I also would like to thank my classmates (msletb-nov-2021 cohort) at Code Institute and Kasia Bogucka, our corhort's coordinator, for their continuing support.
+  - I also would like to thank my classmates (msletb-nov-2021 cohort) at Code Institute and Kasia Bogucka, our corhort's facilitator, for their continuing support.
 
 ## Disclaimer
   Maia's Orchard is an imaginary business. This website is created for educational purposes only.

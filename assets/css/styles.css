@@ -107,6 +107,9 @@ h2 {
   text-transform: uppercase;
 }
 
+.logo {
+  height: 45px;
+}
   /* Thin out the marketing headings */
 .featurette-heading {
   font-weight: 300;
@@ -132,8 +135,8 @@ h2 {
   background-color: #d34836;
 }
 
-.nabar-brand {
-  height: 45;
+.nabar-brand img {
+  height: 45px;
 }
 /* WELCOME */
 .welcome-container {
