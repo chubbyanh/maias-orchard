@@ -9,24 +9,20 @@ body {
 }
 
 /* LINKS */
+.no-underline {
+  text-decoration: none;
+}
+
+.white-link {
+  color: white;
+}
+
+.pink-hover a:hover {
+  color: pink;
+}
+
 .top-banner a {
   color: #d34836;
-}
-
-.social-links a {
-  color: white;
-}
-
-.social-links a:hover {
-  color: pink;
-}
-
-footer a {
-  color: white;
-}
-
-footer a:hover {
-  color: pink;
 }
 
 /* BUTTONS */
