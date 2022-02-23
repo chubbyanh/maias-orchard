@@ -37,7 +37,7 @@ __[View the live project here](https://chubbyanh.github.io/maias-orchard/)__
   - To drive more sales
 
   __The ideal customers of this website are:__
-  - People who want to buy fresh fruit from a reliable sources
+  - People who want to buy fresh fruit from reliable sources
   - People, especially parents, who want interesting activities for their kids
   - Families/groups who want a get-away camping holiday
   - Tourists looking for things to do in the area
@@ -121,7 +121,8 @@ The main targeted users of this website are families with kids, so I wanted to u
 - [Balsamig](https://balsamiq.com/) for wireframing
 - [Firefox Dev Tool](https://developer.mozilla.org/en-US/docs/Tools) for debugging
 - [Google Font](https://fonts.google.com/), [Font Awesome](https://fontawesome.com/), [Hex2rgba](http://hex2rgba.devoth.com/) for styling
-- [TinyPNG](https://tinypng.com/), [Canva](https://www.canva.com/), [GIMP](https://www.gimp.org/) for optimizing and editing images
+- [TinyPNG](https://tinypng.com/), [Canva](https://www.canva.com/), [GIMP](https://www.gimp.org/) for designing, optimizing and editing images
+- [Favico](https://favicon.io/) to generate favico image
 - [W3.CSS Color Generator](https://www.w3schools.com/w3css/w3css_color_generator.asp) to generate color themes
 
 ## Testing 
@@ -198,15 +199,15 @@ __[The live link can be found here](https://chubbyanh.github.io/maias-orchard/)_
 ## Credits
 ### Content
 - Business idea was inspired by a [real business in Tipperary - The Apple Farm](https://www.theapplefarm.com/), that I am a regular customer of.
-- The [Deployment](#deployment) section's content of README.md file was forked from [my classmate's README.md file - Katarzyna Zurawska](https://github.com/katzur/cork-swap/blob/main/README.md)
+- The [Deployment](#deployment) section of README.md file was forked from [my classmate's README.md file - Katarzyna Zurawska](https://github.com/katzur/cork-swap/blob/main/README.md)
 - The website's general design was inspired by [this template on Wix](https://www.wix.com/website-template/view/html/2690)
 - Bootstrap 5 and Fancybox's templates were taken from [my mentor's Carousel templates](https://guidocecilio.github.io/ci-m1-bootstrap-template/)
 
 ### Media
-- Image [Staff selling apple](https://pikwizard.com/photo/smiling-female-staff-holding-a-basket-of-green-apple-at-supermarket/edf79671f221bc69fb2f3d92c26b9bba): free free license, taken from Pikiwizard
-- Image [Berries](https://pixabay.com/photos/berries-fruits-food-blackberries-2277/): free license, taken from Pizabay
-- Image [Apple blossom](https://pixabay.com/photos/blossom-embellishment-raindrop-4118336/): free license, taken from Pizabay
-- Image [Hand holding apple basket](https://www.pexels.com/photo/ethnic-woman-picking-apples-in-basket-5528994/): free license, taken from Pexels
+- Image [Staff selling apple](https://pikwizard.com/photo/smiling-female-staff-holding-a-basket-of-green-apple-at-supermarket/edf79671f221bc69fb2f3d92c26b9bba): free license from Pikiwizard
+- Image [Berries](https://pixabay.com/photos/berries-fruits-food-blackberries-2277/): free license from Pizabay
+- Image [Apple blossom](https://pixabay.com/photos/blossom-embellishment-raindrop-4118336/): free license from Pizabay
+- Image [Hand holding apple basket](https://www.pexels.com/photo/ethnic-woman-picking-apples-in-basket-5528994/): free license from Pexels
 - Other images: purchased from [Shutterstock](https://www.shutterstock.com/)
 
 ## Acknowledgements
